@@ -1,0 +1,540 @@
+0 verbose cli [
+0 verbose cli   '/usr/local/bin/node',
+0 verbose cli   '/usr/local/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '-g',
+0 verbose cli   'react-native-cli'
+0 verbose cli ]
+1 info using npm@7.0.8
+2 info using node@v15.1.0
+3 timing config:load:defaults Completed in 1ms
+4 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+5 timing config:load:builtin Completed in 1ms
+6 timing config:load:cli Completed in 2ms
+7 timing config:load:env Completed in 0ms
+8 timing config:load:project Completed in 1ms
+9 timing config:load:file:/Users/pwamsley/.npmrc Completed in 0ms
+10 timing config:load:user Completed in 0ms
+11 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+12 timing config:load:global Completed in 0ms
+13 timing config:load:cafile Completed in 0ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:setUserAgent Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 7ms
+18 verbose npm-session ec98f2c420aa9086
+19 timing npm:load Completed in 15ms
+20 timing arborist:ctor Completed in 1ms
+21 timing idealTree:init Completed in 5ms
+22 timing idealTree:userRequests Completed in 2ms
+23 silly idealTree buildDeps
+24 silly fetch manifest react-native-cli@*
+25 http fetch GET 200 https://registry.npmjs.org/react-native-cli 199ms
+26 silly placeDep ROOT react-native-cli@2.0.1 OK for:  want: *
+27 silly fetch manifest chalk@^1.1.1
+28 silly fetch manifest minimist@^1.2.0
+29 silly fetch manifest prompt@^0.2.14
+30 silly fetch manifest semver@^5.0.3
+31 http fetch GET 200 https://registry.npmjs.org/prompt 38ms
+32 http fetch GET 304 https://registry.npmjs.org/minimist 111ms (from cache)
+33 http fetch GET 304 https://registry.npmjs.org/chalk 120ms (from cache)
+34 http fetch GET 304 https://registry.npmjs.org/semver 152ms (from cache)
+35 timing idealTree:#root Completed in 367ms
+36 silly placeDep node_modules/react-native-cli chalk@1.1.3 OK for: react-native-cli@2.0.1 want: ^1.1.1
+37 silly placeDep node_modules/react-native-cli minimist@1.2.5 OK for: react-native-cli@2.0.1 want: ^1.2.0
+38 silly placeDep node_modules/react-native-cli prompt@0.2.14 OK for: react-native-cli@2.0.1 want: ^0.2.14
+39 silly placeDep node_modules/react-native-cli semver@5.7.1 OK for: react-native-cli@2.0.1 want: ^5.0.3
+40 silly fetch manifest ansi-styles@^2.2.1
+41 silly fetch manifest escape-string-regexp@^1.0.2
+42 silly fetch manifest has-ansi@^2.0.0
+43 silly fetch manifest strip-ansi@^3.0.0
+44 silly fetch manifest supports-color@^2.0.0
+45 silly fetch manifest pkginfo@0.x.x
+46 silly fetch manifest read@1.0.x
+47 silly fetch manifest revalidator@0.1.x
+48 silly fetch manifest utile@0.2.x
+49 silly fetch manifest winston@0.8.x
+50 http fetch GET 200 https://registry.npmjs.org/pkginfo 42ms
+51 http fetch GET 200 https://registry.npmjs.org/utile 55ms
+52 http fetch GET 200 https://registry.npmjs.org/read 59ms
+53 http fetch GET 200 https://registry.npmjs.org/revalidator 62ms
+54 http fetch GET 200 https://registry.npmjs.org/winston 120ms
+55 http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 134ms (from cache)
+56 http fetch GET 304 https://registry.npmjs.org/strip-ansi 145ms (from cache)
+57 http fetch GET 304 https://registry.npmjs.org/supports-color 146ms (from cache)
+58 http fetch GET 304 https://registry.npmjs.org/has-ansi 157ms (from cache)
+59 http fetch GET 304 https://registry.npmjs.org/ansi-styles 160ms (from cache)
+60 timing idealTree:node_modules/react-native-cli Completed in 169ms
+61 silly placeDep node_modules/react-native-cli ansi-styles@2.2.1 OK for: chalk@1.1.3 want: ^2.2.1
+62 silly placeDep node_modules/react-native-cli escape-string-regexp@1.0.5 OK for: chalk@1.1.3 want: ^1.0.2
+63 silly placeDep node_modules/react-native-cli has-ansi@2.0.0 OK for: chalk@1.1.3 want: ^2.0.0
+64 silly placeDep node_modules/react-native-cli strip-ansi@3.0.1 OK for: chalk@1.1.3 want: ^3.0.0
+65 silly placeDep node_modules/react-native-cli supports-color@2.0.0 OK for: chalk@1.1.3 want: ^2.0.0
+66 silly fetch manifest ansi-regex@^2.0.0
+67 http fetch GET 304 https://registry.npmjs.org/ansi-regex 43ms (from cache)
+68 timing idealTree:node_modules/react-native-cli/node_modules/chalk Completed in 49ms
+69 timing idealTree:node_modules/react-native-cli/node_modules/ansi-styles Completed in 0ms
+70 timing idealTree:node_modules/react-native-cli/node_modules/escape-string-regexp Completed in 0ms
+71 silly placeDep node_modules/react-native-cli ansi-regex@2.1.1 OK for: has-ansi@2.0.0 want: ^2.0.0
+72 timing idealTree:node_modules/react-native-cli/node_modules/has-ansi Completed in 2ms
+73 timing idealTree:node_modules/react-native-cli/node_modules/ansi-regex Completed in 0ms
+74 timing idealTree:node_modules/react-native-cli/node_modules/minimist Completed in 0ms
+75 silly placeDep node_modules/react-native-cli pkginfo@0.4.1 OK for: prompt@0.2.14 want: 0.x.x
+76 silly placeDep node_modules/react-native-cli read@1.0.7 OK for: prompt@0.2.14 want: 1.0.x
+77 silly placeDep node_modules/react-native-cli revalidator@0.1.8 OK for: prompt@0.2.14 want: 0.1.x
+78 silly placeDep node_modules/react-native-cli utile@0.2.1 OK for: prompt@0.2.14 want: 0.2.x
+79 silly placeDep node_modules/react-native-cli winston@0.8.3 OK for: prompt@0.2.14 want: 0.8.x
+80 silly fetch manifest mute-stream@~0.0.4
+81 silly fetch manifest async@~0.2.9
+82 silly fetch manifest deep-equal@*
+83 silly fetch manifest i@0.3.x
+84 silly fetch manifest mkdirp@0.x.x
+85 silly fetch manifest ncp@0.4.x
+86 silly fetch manifest rimraf@2.x.x
+87 silly fetch manifest async@0.2.x
+88 silly fetch manifest colors@0.6.x
+89 silly fetch manifest cycle@1.0.x
+90 silly fetch manifest eyes@0.1.x
+91 silly fetch manifest isstream@0.1.x
+92 silly fetch manifest pkginfo@0.3.x
+93 silly fetch manifest stack-trace@0.0.x
+94 http fetch GET 200 https://registry.npmjs.org/ncp 52ms
+95 http fetch GET 200 https://registry.npmjs.org/colors 52ms
+96 http fetch GET 200 https://registry.npmjs.org/eyes 76ms
+97 http fetch GET 200 https://registry.npmjs.org/stack-trace 75ms
+98 http fetch GET 200 https://registry.npmjs.org/i 84ms
+99 http fetch GET 304 https://registry.npmjs.org/async 87ms (from cache)
+100 http fetch GET 304 https://registry.npmjs.org/deep-equal 95ms (from cache)
+101 http fetch GET 304 https://registry.npmjs.org/pkginfo 89ms (from cache)
+102 http fetch GET 304 https://registry.npmjs.org/async 100ms (from cache)
+103 http fetch GET 304 https://registry.npmjs.org/mute-stream 110ms (from cache)
+104 http fetch GET 304 https://registry.npmjs.org/mkdirp 109ms (from cache)
+105 http fetch GET 304 https://registry.npmjs.org/isstream 148ms (from cache)
+106 http fetch GET 304 https://registry.npmjs.org/rimraf 153ms (from cache)
+107 http fetch GET 200 https://registry.npmjs.org/cycle 170ms
+108 timing idealTree:node_modules/react-native-cli/node_modules/prompt Completed in 183ms
+109 timing idealTree:node_modules/react-native-cli/node_modules/pkginfo Completed in 0ms
+110 silly placeDep node_modules/react-native-cli mute-stream@0.0.8 OK for: read@1.0.7 want: ~0.0.4
+111 timing idealTree:node_modules/react-native-cli/node_modules/read Completed in 1ms
+112 timing idealTree:node_modules/react-native-cli/node_modules/mute-stream Completed in 0ms
+113 timing idealTree:node_modules/react-native-cli/node_modules/revalidator Completed in 0ms
+114 timing idealTree:node_modules/react-native-cli/node_modules/semver Completed in 0ms
+115 timing idealTree:node_modules/react-native-cli/node_modules/strip-ansi Completed in 0ms
+116 timing idealTree:node_modules/react-native-cli/node_modules/supports-color Completed in 0ms
+117 silly placeDep node_modules/react-native-cli async@0.2.10 OK for: utile@0.2.1 want: ~0.2.9
+118 silly placeDep node_modules/react-native-cli deep-equal@2.0.4 OK for: utile@0.2.1 want: *
+119 silly placeDep node_modules/react-native-cli i@0.3.6 OK for: utile@0.2.1 want: 0.3.x
+120 silly placeDep node_modules/react-native-cli mkdirp@0.5.5 OK for: utile@0.2.1 want: 0.x.x
+121 silly placeDep node_modules/react-native-cli ncp@0.4.2 OK for: utile@0.2.1 want: 0.4.x
+122 silly placeDep node_modules/react-native-cli rimraf@2.7.1 OK for: utile@0.2.1 want: 2.x.x
+123 silly fetch manifest es-abstract@^1.18.0-next.1
+124 silly fetch manifest es-get-iterator@^1.1.0
+125 silly fetch manifest is-arguments@^1.0.4
+126 silly fetch manifest is-date-object@^1.0.2
+127 silly fetch manifest is-regex@^1.1.1
+128 silly fetch manifest isarray@^2.0.5
+129 silly fetch manifest object-is@^1.1.3
+130 silly fetch manifest object-keys@^1.1.1
+131 silly fetch manifest object.assign@^4.1.1
+132 silly fetch manifest regexp.prototype.flags@^1.3.0
+133 silly fetch manifest side-channel@^1.0.3
+134 silly fetch manifest which-boxed-primitive@^1.0.1
+135 silly fetch manifest which-collection@^1.0.1
+136 silly fetch manifest which-typed-array@^1.1.2
+137 silly fetch manifest glob@^7.1.3
+138 http fetch GET 200 https://registry.npmjs.org/which-typed-array 56ms
+139 http fetch GET 304 https://registry.npmjs.org/es-abstract 77ms (from cache)
+140 http fetch GET 304 https://registry.npmjs.org/isarray 74ms (from cache)
+141 http fetch GET 304 https://registry.npmjs.org/object-is 74ms (from cache)
+142 http fetch GET 200 https://registry.npmjs.org/which-boxed-primitive 73ms
+143 http fetch GET 304 https://registry.npmjs.org/is-arguments 83ms (from cache)
+144 http fetch GET 200 https://registry.npmjs.org/es-get-iterator 85ms
+145 http fetch GET 200 https://registry.npmjs.org/which-collection 77ms
+146 http fetch GET 304 https://registry.npmjs.org/is-date-object 85ms (from cache)
+147 http fetch GET 304 https://registry.npmjs.org/object-keys 84ms (from cache)
+148 http fetch GET 304 https://registry.npmjs.org/is-regex 88ms (from cache)
+149 http fetch GET 304 https://registry.npmjs.org/side-channel 84ms (from cache)
+150 http fetch GET 304 https://registry.npmjs.org/regexp.prototype.flags 93ms (from cache)
+151 http fetch GET 304 https://registry.npmjs.org/object.assign 95ms (from cache)
+152 http fetch GET 304 https://registry.npmjs.org/glob 97ms (from cache)
+153 timing idealTree:node_modules/react-native-cli/node_modules/utile Completed in 114ms
+154 timing idealTree:node_modules/react-native-cli/node_modules/async Completed in 0ms
+155 silly placeDep node_modules/react-native-cli es-abstract@1.18.0-next.1 OK for: deep-equal@2.0.4 want: ^1.18.0-next.1
+156 silly placeDep node_modules/react-native-cli es-get-iterator@1.1.1 OK for: deep-equal@2.0.4 want: ^1.1.0
+157 silly placeDep node_modules/react-native-cli is-arguments@1.0.4 OK for: deep-equal@2.0.4 want: ^1.0.4
+158 silly placeDep node_modules/react-native-cli is-date-object@1.0.2 OK for: deep-equal@2.0.4 want: ^1.0.2
+159 silly placeDep node_modules/react-native-cli is-regex@1.1.1 OK for: deep-equal@2.0.4 want: ^1.1.1
+160 silly placeDep node_modules/react-native-cli isarray@2.0.5 OK for: deep-equal@2.0.4 want: ^2.0.5
+161 silly placeDep node_modules/react-native-cli object-is@1.1.3 OK for: deep-equal@2.0.4 want: ^1.1.3
+162 silly placeDep node_modules/react-native-cli object-keys@1.1.1 OK for: deep-equal@2.0.4 want: ^1.1.1
+163 silly placeDep node_modules/react-native-cli object.assign@4.1.2 OK for: deep-equal@2.0.4 want: ^4.1.1
+164 silly placeDep node_modules/react-native-cli regexp.prototype.flags@1.3.0 OK for: deep-equal@2.0.4 want: ^1.3.0
+165 silly placeDep node_modules/react-native-cli side-channel@1.0.3 OK for: deep-equal@2.0.4 want: ^1.0.3
+166 silly placeDep node_modules/react-native-cli which-boxed-primitive@1.0.1 OK for: deep-equal@2.0.4 want: ^1.0.1
+167 silly placeDep node_modules/react-native-cli which-collection@1.0.1 OK for: deep-equal@2.0.4 want: ^1.0.1
+168 silly placeDep node_modules/react-native-cli which-typed-array@1.1.2 OK for: deep-equal@2.0.4 want: ^1.1.2
+169 silly fetch manifest es-to-primitive@^1.2.1
+170 silly fetch manifest function-bind@^1.1.1
+171 silly fetch manifest has@^1.0.3
+172 silly fetch manifest has-symbols@^1.0.1
+173 silly fetch manifest is-callable@^1.2.2
+174 silly fetch manifest is-negative-zero@^2.0.0
+175 silly fetch manifest object-inspect@^1.8.0
+176 silly fetch manifest string.prototype.trimend@^1.0.1
+177 silly fetch manifest string.prototype.trimstart@^1.0.1
+178 silly fetch manifest call-bind@^1.0.0
+179 silly fetch manifest get-intrinsic@^1.0.1
+180 silly fetch manifest is-map@^2.0.1
+181 silly fetch manifest is-set@^2.0.1
+182 silly fetch manifest is-string@^1.0.5
+183 silly fetch manifest define-properties@^1.1.3
+184 silly fetch manifest es-abstract@^1.17.0-next.1
+185 silly fetch manifest is-bigint@^1.0.0
+186 silly fetch manifest is-boolean-object@^1.0.0
+187 silly fetch manifest is-number-object@^1.0.3
+188 silly fetch manifest is-string@^1.0.4
+189 silly fetch manifest is-symbol@^1.0.2
+190 silly fetch manifest is-weakmap@^2.0.1
+191 silly fetch manifest is-weakset@^2.0.1
+192 silly fetch manifest available-typed-arrays@^1.0.2
+193 silly fetch manifest es-abstract@^1.17.5
+194 silly fetch manifest foreach@^2.0.5
+195 silly fetch manifest is-typed-array@^1.1.3
+196 http fetch GET 200 https://registry.npmjs.org/is-map 79ms
+197 http fetch GET 200 https://registry.npmjs.org/is-set 79ms
+198 http fetch GET 200 https://registry.npmjs.org/is-weakmap 73ms
+199 http fetch GET 200 https://registry.npmjs.org/is-number-object 77ms
+200 http fetch GET 200 https://registry.npmjs.org/available-typed-arrays 75ms
+201 http fetch GET 200 https://registry.npmjs.org/is-typed-array 71ms
+202 http fetch GET 200 https://registry.npmjs.org/is-bigint 81ms
+203 http fetch GET 200 https://registry.npmjs.org/is-weakset 78ms
+204 http fetch GET 200 https://registry.npmjs.org/is-boolean-object 83ms
+205 http fetch GET 304 https://registry.npmjs.org/function-bind 94ms (from cache)
+206 http fetch GET 304 https://registry.npmjs.org/es-to-primitive 95ms (from cache)
+207 http fetch GET 304 https://registry.npmjs.org/has-symbols 94ms (from cache)
+208 http fetch GET 304 https://registry.npmjs.org/object-inspect 114ms (from cache)
+209 http fetch GET 304 https://registry.npmjs.org/string.prototype.trimend 132ms (from cache)
+210 http fetch GET 304 https://registry.npmjs.org/is-negative-zero 138ms (from cache)
+211 http fetch GET 304 https://registry.npmjs.org/foreach 126ms (from cache)
+212 http fetch GET 304 https://registry.npmjs.org/is-callable 143ms (from cache)
+213 http fetch GET 304 https://registry.npmjs.org/string.prototype.trimstart 142ms (from cache)
+214 http fetch GET 304 https://registry.npmjs.org/has 147ms (from cache)
+215 http fetch GET 304 https://registry.npmjs.org/define-properties 140ms (from cache)
+216 http fetch GET 304 https://registry.npmjs.org/es-abstract 139ms (from cache)
+217 http fetch GET 304 https://registry.npmjs.org/es-abstract 134ms (from cache)
+218 http fetch GET 304 https://registry.npmjs.org/get-intrinsic 144ms (from cache)
+219 http fetch GET 304 https://registry.npmjs.org/call-bind 145ms (from cache)
+220 http fetch GET 304 https://registry.npmjs.org/is-string 149ms (from cache)
+221 http fetch GET 304 https://registry.npmjs.org/is-symbol 144ms (from cache)
+222 http fetch GET 304 https://registry.npmjs.org/is-string 156ms (from cache)
+223 timing idealTree:node_modules/react-native-cli/node_modules/deep-equal Completed in 180ms
+224 silly placeDep node_modules/react-native-cli es-to-primitive@1.2.1 OK for: es-abstract@1.18.0-next.1 want: ^1.2.1
+225 silly placeDep node_modules/react-native-cli function-bind@1.1.1 OK for: es-abstract@1.18.0-next.1 want: ^1.1.1
+226 silly placeDep node_modules/react-native-cli has@1.0.3 OK for: es-abstract@1.18.0-next.1 want: ^1.0.3
+227 silly placeDep node_modules/react-native-cli has-symbols@1.0.1 OK for: es-abstract@1.18.0-next.1 want: ^1.0.1
+228 silly placeDep node_modules/react-native-cli is-callable@1.2.2 OK for: es-abstract@1.18.0-next.1 want: ^1.2.2
+229 silly placeDep node_modules/react-native-cli is-negative-zero@2.0.0 OK for: es-abstract@1.18.0-next.1 want: ^2.0.0
+230 silly placeDep node_modules/react-native-cli object-inspect@1.8.0 OK for: es-abstract@1.18.0-next.1 want: ^1.8.0
+231 silly placeDep node_modules/react-native-cli string.prototype.trimend@1.0.2 OK for: es-abstract@1.18.0-next.1 want: ^1.0.1
+232 silly placeDep node_modules/react-native-cli string.prototype.trimstart@1.0.2 OK for: es-abstract@1.18.0-next.1 want: ^1.0.1
+233 timing idealTree:node_modules/react-native-cli/node_modules/es-abstract Completed in 9ms
+234 silly placeDep node_modules/react-native-cli call-bind@1.0.0 OK for: es-get-iterator@1.1.1 want: ^1.0.0
+235 silly placeDep node_modules/react-native-cli get-intrinsic@1.0.1 OK for: es-get-iterator@1.1.1 want: ^1.0.1
+236 silly placeDep node_modules/react-native-cli is-map@2.0.1 OK for: es-get-iterator@1.1.1 want: ^2.0.1
+237 silly placeDep node_modules/react-native-cli is-set@2.0.1 OK for: es-get-iterator@1.1.1 want: ^2.0.1
+238 silly placeDep node_modules/react-native-cli is-string@1.0.5 OK for: es-get-iterator@1.1.1 want: ^1.0.5
+239 timing idealTree:node_modules/react-native-cli/node_modules/es-get-iterator Completed in 4ms
+240 timing idealTree:node_modules/react-native-cli/node_modules/call-bind Completed in 0ms
+241 silly placeDep node_modules/react-native-cli is-symbol@1.0.3 OK for: es-to-primitive@1.2.1 want: ^1.0.2
+242 timing idealTree:node_modules/react-native-cli/node_modules/es-to-primitive Completed in 1ms
+243 timing idealTree:node_modules/react-native-cli/node_modules/function-bind Completed in 0ms
+244 timing idealTree:node_modules/react-native-cli/node_modules/get-intrinsic Completed in 0ms
+245 timing idealTree:node_modules/react-native-cli/node_modules/has Completed in 0ms
+246 timing idealTree:node_modules/react-native-cli/node_modules/has-symbols Completed in 0ms
+247 timing idealTree:node_modules/react-native-cli/node_modules/i Completed in 0ms
+248 timing idealTree:node_modules/react-native-cli/node_modules/is-arguments Completed in 0ms
+249 timing idealTree:node_modules/react-native-cli/node_modules/is-callable Completed in 0ms
+250 timing idealTree:node_modules/react-native-cli/node_modules/is-date-object Completed in 0ms
+251 timing idealTree:node_modules/react-native-cli/node_modules/is-map Completed in 0ms
+252 timing idealTree:node_modules/react-native-cli/node_modules/is-negative-zero Completed in 0ms
+253 timing idealTree:node_modules/react-native-cli/node_modules/is-regex Completed in 0ms
+254 timing idealTree:node_modules/react-native-cli/node_modules/is-set Completed in 0ms
+255 timing idealTree:node_modules/react-native-cli/node_modules/is-string Completed in 0ms
+256 timing idealTree:node_modules/react-native-cli/node_modules/is-symbol Completed in 0ms
+257 timing idealTree:node_modules/react-native-cli/node_modules/isarray Completed in 0ms
+258 timing idealTree:node_modules/react-native-cli/node_modules/mkdirp Completed in 0ms
+259 timing idealTree:node_modules/react-native-cli/node_modules/ncp Completed in 0ms
+260 timing idealTree:node_modules/react-native-cli/node_modules/object-inspect Completed in 0ms
+261 silly placeDep node_modules/react-native-cli define-properties@1.1.3 OK for: object-is@1.1.3 want: ^1.1.3
+262 timing idealTree:node_modules/react-native-cli/node_modules/object-is Completed in 1ms
+263 timing idealTree:node_modules/react-native-cli/node_modules/define-properties Completed in 0ms
+264 timing idealTree:node_modules/react-native-cli/node_modules/object-keys Completed in 0ms
+265 timing idealTree:node_modules/react-native-cli/node_modules/object.assign Completed in 1ms
+266 silly placeDep node_modules/react-native-cli/node_modules/regexp.prototype.flags es-abstract@1.17.7 OK for: regexp.prototype.flags@1.3.0 want: ^1.17.0-next.1
+267 timing idealTree:node_modules/react-native-cli/node_modules/regexp.prototype.flags Completed in 4ms
+268 silly placeDep node_modules/react-native-cli glob@7.1.6 OK for: rimraf@2.7.1 want: ^7.1.3
+269 silly fetch manifest fs.realpath@^1.0.0
+270 silly fetch manifest inflight@^1.0.4
+271 silly fetch manifest inherits@2
+272 silly fetch manifest minimatch@^3.0.4
+273 silly fetch manifest once@^1.3.0
+274 silly fetch manifest path-is-absolute@^1.0.0
+275 http fetch GET 304 https://registry.npmjs.org/fs.realpath 90ms (from cache)
+276 http fetch GET 304 https://registry.npmjs.org/path-is-absolute 88ms (from cache)
+277 http fetch GET 304 https://registry.npmjs.org/inflight 95ms (from cache)
+278 http fetch GET 304 https://registry.npmjs.org/once 96ms (from cache)
+279 http fetch GET 304 https://registry.npmjs.org/inherits 100ms (from cache)
+280 http fetch GET 304 https://registry.npmjs.org/minimatch 104ms (from cache)
+281 timing idealTree:node_modules/react-native-cli/node_modules/rimraf Completed in 107ms
+282 silly placeDep node_modules/react-native-cli fs.realpath@1.0.0 OK for: glob@7.1.6 want: ^1.0.0
+283 silly placeDep node_modules/react-native-cli inflight@1.0.6 OK for: glob@7.1.6 want: ^1.0.4
+284 silly placeDep node_modules/react-native-cli inherits@2.0.4 OK for: glob@7.1.6 want: 2
+285 silly placeDep node_modules/react-native-cli minimatch@3.0.4 OK for: glob@7.1.6 want: ^3.0.4
+286 silly placeDep node_modules/react-native-cli once@1.4.0 OK for: glob@7.1.6 want: ^1.3.0
+287 silly placeDep node_modules/react-native-cli path-is-absolute@1.0.1 OK for: glob@7.1.6 want: ^1.0.0
+288 silly fetch manifest wrappy@1
+289 silly fetch manifest brace-expansion@^1.1.7
+290 http fetch GET 304 https://registry.npmjs.org/wrappy 54ms (from cache)
+291 http fetch GET 304 https://registry.npmjs.org/brace-expansion 56ms (from cache)
+292 timing idealTree:node_modules/react-native-cli/node_modules/glob Completed in 62ms
+293 timing idealTree:node_modules/react-native-cli/node_modules/fs.realpath Completed in 0ms
+294 silly placeDep node_modules/react-native-cli wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+295 timing idealTree:node_modules/react-native-cli/node_modules/inflight Completed in 2ms
+296 timing idealTree:node_modules/react-native-cli/node_modules/inherits Completed in 0ms
+297 silly placeDep node_modules/react-native-cli brace-expansion@1.1.11 OK for: minimatch@3.0.4 want: ^1.1.7
+298 silly fetch manifest balanced-match@^1.0.0
+299 silly fetch manifest concat-map@0.0.1
+300 http fetch GET 304 https://registry.npmjs.org/balanced-match 44ms (from cache)
+301 http fetch GET 304 https://registry.npmjs.org/concat-map 46ms (from cache)
+302 timing idealTree:node_modules/react-native-cli/node_modules/minimatch Completed in 49ms
+303 silly placeDep node_modules/react-native-cli balanced-match@1.0.0 OK for: brace-expansion@1.1.11 want: ^1.0.0
+304 silly placeDep node_modules/react-native-cli concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+305 timing idealTree:node_modules/react-native-cli/node_modules/brace-expansion Completed in 1ms
+306 timing idealTree:node_modules/react-native-cli/node_modules/balanced-match Completed in 0ms
+307 timing idealTree:node_modules/react-native-cli/node_modules/concat-map Completed in 0ms
+308 timing idealTree:node_modules/react-native-cli/node_modules/once Completed in 0ms
+309 timing idealTree:node_modules/react-native-cli/node_modules/path-is-absolute Completed in 0ms
+310 timing idealTree:node_modules/react-native-cli/node_modules/side-channel Completed in 0ms
+311 timing idealTree:node_modules/react-native-cli/node_modules/string.prototype.trimend Completed in 0ms
+312 timing idealTree:node_modules/react-native-cli/node_modules/string.prototype.trimstart Completed in 0ms
+313 silly placeDep node_modules/react-native-cli is-bigint@1.0.0 OK for: which-boxed-primitive@1.0.1 want: ^1.0.0
+314 silly placeDep node_modules/react-native-cli is-boolean-object@1.0.1 OK for: which-boxed-primitive@1.0.1 want: ^1.0.0
+315 silly placeDep node_modules/react-native-cli is-number-object@1.0.4 OK for: which-boxed-primitive@1.0.1 want: ^1.0.3
+316 timing idealTree:node_modules/react-native-cli/node_modules/which-boxed-primitive Completed in 2ms
+317 timing idealTree:node_modules/react-native-cli/node_modules/is-bigint Completed in 0ms
+318 timing idealTree:node_modules/react-native-cli/node_modules/is-boolean-object Completed in 0ms
+319 timing idealTree:node_modules/react-native-cli/node_modules/is-number-object Completed in 0ms
+320 silly placeDep node_modules/react-native-cli is-weakmap@2.0.1 OK for: which-collection@1.0.1 want: ^2.0.1
+321 silly placeDep node_modules/react-native-cli is-weakset@2.0.1 OK for: which-collection@1.0.1 want: ^2.0.1
+322 timing idealTree:node_modules/react-native-cli/node_modules/which-collection Completed in 2ms
+323 timing idealTree:node_modules/react-native-cli/node_modules/is-weakmap Completed in 0ms
+324 timing idealTree:node_modules/react-native-cli/node_modules/is-weakset Completed in 0ms
+325 silly placeDep node_modules/react-native-cli available-typed-arrays@1.0.2 OK for: which-typed-array@1.1.2 want: ^1.0.2
+326 silly placeDep node_modules/react-native-cli/node_modules/which-typed-array es-abstract@1.17.7 OK for: which-typed-array@1.1.2 want: ^1.17.5
+327 silly placeDep node_modules/react-native-cli foreach@2.0.5 OK for: which-typed-array@1.1.2 want: ^2.0.5
+328 silly placeDep node_modules/react-native-cli is-typed-array@1.1.3 OK for: which-typed-array@1.1.2 want: ^1.1.3
+329 silly fetch manifest array-filter@^1.0.0
+330 silly fetch manifest es-abstract@^1.17.4
+331 http fetch GET 304 https://registry.npmjs.org/es-abstract 47ms (from cache)
+332 http fetch GET 304 https://registry.npmjs.org/array-filter 59ms (from cache)
+333 timing idealTree:node_modules/react-native-cli/node_modules/which-typed-array Completed in 66ms
+334 silly placeDep node_modules/react-native-cli array-filter@1.0.0 OK for: available-typed-arrays@1.0.2 want: ^1.0.0
+335 timing idealTree:node_modules/react-native-cli/node_modules/available-typed-arrays Completed in 2ms
+336 timing idealTree:node_modules/react-native-cli/node_modules/array-filter Completed in 0ms
+337 timing idealTree:node_modules/react-native-cli/node_modules/foreach Completed in 0ms
+338 silly placeDep node_modules/react-native-cli/node_modules/is-typed-array es-abstract@1.17.7 OK for: is-typed-array@1.1.3 want: ^1.17.4
+339 timing idealTree:node_modules/react-native-cli/node_modules/is-typed-array Completed in 2ms
+340 silly placeDep node_modules/react-native-cli colors@0.6.2 OK for: winston@0.8.3 want: 0.6.x
+341 silly placeDep node_modules/react-native-cli cycle@1.0.3 OK for: winston@0.8.3 want: 1.0.x
+342 silly placeDep node_modules/react-native-cli eyes@0.1.8 OK for: winston@0.8.3 want: 0.1.x
+343 silly placeDep node_modules/react-native-cli isstream@0.1.2 OK for: winston@0.8.3 want: 0.1.x
+344 silly placeDep node_modules/react-native-cli/node_modules/winston pkginfo@0.3.1 OK for: winston@0.8.3 want: 0.3.x
+345 silly placeDep node_modules/react-native-cli stack-trace@0.0.10 OK for: winston@0.8.3 want: 0.0.x
+346 timing idealTree:node_modules/react-native-cli/node_modules/winston Completed in 4ms
+347 timing idealTree:node_modules/react-native-cli/node_modules/colors Completed in 0ms
+348 timing idealTree:node_modules/react-native-cli/node_modules/cycle Completed in 0ms
+349 timing idealTree:node_modules/react-native-cli/node_modules/eyes Completed in 0ms
+350 timing idealTree:node_modules/react-native-cli/node_modules/isstream Completed in 0ms
+351 timing idealTree:node_modules/react-native-cli/node_modules/stack-trace Completed in 0ms
+352 timing idealTree:node_modules/react-native-cli/node_modules/wrappy Completed in 0ms
+353 timing idealTree:node_modules/react-native-cli/node_modules/is-typed-array/node_modules/es-abstract Completed in 0ms
+354 timing idealTree:node_modules/react-native-cli/node_modules/regexp.prototype.flags/node_modules/es-abstract Completed in 0ms
+355 timing idealTree:node_modules/react-native-cli/node_modules/which-typed-array/node_modules/es-abstract Completed in 0ms
+356 timing idealTree:node_modules/react-native-cli/node_modules/winston/node_modules/pkginfo Completed in 0ms
+357 timing idealTree:buildDeps Completed in 1391ms
+358 timing idealTree:fixDepFlags Completed in 2ms
+359 timing idealTree Completed in 1402ms
+360 timing reify:loadTrees Completed in 1407ms
+361 timing reify:diffTrees Completed in 1ms
+362 silly reify moves {}
+363 timing reify:retireShallow Completed in 0ms
+364 timing reify:createSparse Completed in 12ms
+365 timing reify:loadBundles Completed in 0ms
+366 silly tarball no local data for stack-trace@https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.10.tgz. Extracting by manifest.
+367 silly tarball no local data for eyes@https://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz. Extracting by manifest.
+368 silly tarball no local data for cycle@https://registry.npmjs.org/cycle/-/cycle-1.0.3.tgz. Extracting by manifest.
+369 silly tarball no local data for is-typed-array@https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.3.tgz. Extracting by manifest.
+370 silly tarball no local data for colors@https://registry.npmjs.org/colors/-/colors-0.6.2.tgz. Extracting by manifest.
+371 silly tarball no local data for foreach@https://registry.npmjs.org/foreach/-/foreach-2.0.5.tgz. Extracting by manifest.
+372 silly tarball no local data for array-filter@https://registry.npmjs.org/array-filter/-/array-filter-1.0.0.tgz. Extracting by manifest.
+373 silly tarball no local data for is-weakset@https://registry.npmjs.org/is-weakset/-/is-weakset-2.0.1.tgz. Extracting by manifest.
+374 silly tarball no local data for is-number-object@https://registry.npmjs.org/is-number-object/-/is-number-object-1.0.4.tgz. Extracting by manifest.
+375 silly tarball no local data for is-weakmap@https://registry.npmjs.org/is-weakmap/-/is-weakmap-2.0.1.tgz. Extracting by manifest.
+376 silly tarball no local data for available-typed-arrays@https://registry.npmjs.org/available-typed-arrays/-/available-typed-arrays-1.0.2.tgz. Extracting by manifest.
+377 silly tarball no local data for is-boolean-object@https://registry.npmjs.org/is-boolean-object/-/is-boolean-object-1.0.1.tgz. Extracting by manifest.
+378 silly tarball no local data for is-bigint@https://registry.npmjs.org/is-bigint/-/is-bigint-1.0.0.tgz. Extracting by manifest.
+379 silly tarball no local data for is-map@https://registry.npmjs.org/is-map/-/is-map-2.0.1.tgz. Extracting by manifest.
+380 silly tarball no local data for is-set@https://registry.npmjs.org/is-set/-/is-set-2.0.1.tgz. Extracting by manifest.
+381 silly tarball no local data for which-typed-array@https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.2.tgz. Extracting by manifest.
+382 silly tarball no local data for which-boxed-primitive@https://registry.npmjs.org/which-boxed-primitive/-/which-boxed-primitive-1.0.1.tgz. Extracting by manifest.
+383 silly tarball no local data for which-collection@https://registry.npmjs.org/which-collection/-/which-collection-1.0.1.tgz. Extracting by manifest.
+384 silly tarball no local data for isarray@https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz. Extracting by manifest.
+385 silly tarball no local data for es-get-iterator@https://registry.npmjs.org/es-get-iterator/-/es-get-iterator-1.1.1.tgz. Extracting by manifest.
+386 silly tarball no local data for deep-equal@https://registry.npmjs.org/deep-equal/-/deep-equal-2.0.4.tgz. Extracting by manifest.
+387 silly tarball no local data for i@https://registry.npmjs.org/i/-/i-0.3.6.tgz. Extracting by manifest.
+388 silly tarball no local data for ncp@https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz. Extracting by manifest.
+389 silly tarball no local data for async@https://registry.npmjs.org/async/-/async-0.2.10.tgz. Extracting by manifest.
+390 silly tarball no local data for pkginfo@https://registry.npmjs.org/pkginfo/-/pkginfo-0.3.1.tgz. Extracting by manifest.
+391 silly tarball no local data for winston@https://registry.npmjs.org/winston/-/winston-0.8.3.tgz. Extracting by manifest.
+392 silly tarball no local data for utile@https://registry.npmjs.org/utile/-/utile-0.2.1.tgz. Extracting by manifest.
+393 silly tarball no local data for pkginfo@https://registry.npmjs.org/pkginfo/-/pkginfo-0.4.1.tgz. Extracting by manifest.
+394 silly tarball no local data for read@https://registry.npmjs.org/read/-/read-1.0.7.tgz. Extracting by manifest.
+395 silly tarball no local data for revalidator@https://registry.npmjs.org/revalidator/-/revalidator-0.1.8.tgz. Extracting by manifest.
+396 silly tarball no local data for prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz. Extracting by manifest.
+397 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 321ms
+398 timing auditReport:getReport Completed in 322ms
+399 timing auditReport:init Completed in 0ms
+400 timing reify:audit Completed in 323ms
+401 timing reifyNode:node_modules/react-native-cli/node_modules/wrappy Completed in 365ms
+402 timing reifyNode:node_modules/react-native-cli/node_modules/path-is-absolute Completed in 365ms
+403 timing reifyNode:node_modules/react-native-cli/node_modules/once Completed in 366ms
+404 timing reifyNode:node_modules/react-native-cli/node_modules/inflight Completed in 366ms
+405 timing reifyNode:node_modules/react-native-cli/node_modules/brace-expansion Completed in 366ms
+406 timing reifyNode:node_modules/react-native-cli/node_modules/mute-stream Completed in 366ms
+407 timing reifyNode:node_modules/react-native-cli/node_modules/has-ansi Completed in 366ms
+408 timing reifyNode:node_modules/react-native-cli/node_modules/ansi-regex Completed in 366ms
+409 timing reifyNode:node_modules/react-native-cli/node_modules/supports-color Completed in 366ms
+410 timing reifyNode:node_modules/react-native-cli/node_modules/strip-ansi Completed in 366ms
+411 timing reifyNode:node_modules/react-native-cli/node_modules/ansi-styles Completed in 367ms
+412 timing reifyNode:node_modules/react-native-cli/node_modules/escape-string-regexp Completed in 367ms
+413 timing reifyNode:node_modules/react-native-cli/node_modules/chalk Completed in 367ms
+414 timing reifyNode:node_modules/react-native-cli/node_modules/balanced-match Completed in 374ms
+415 timing reifyNode:node_modules/react-native-cli/node_modules/inherits Completed in 374ms
+416 timing reifyNode:node_modules/react-native-cli/node_modules/fs.realpath Completed in 385ms
+417 timing reifyNode:node_modules/react-native-cli/node_modules/minimatch Completed in 385ms
+418 timing reifyNode:node_modules/react-native-cli/node_modules/rimraf Completed in 384ms
+419 timing reifyNode:node_modules/react-native-cli/node_modules/has Completed in 395ms
+420 timing reifyNode:node_modules/react-native-cli/node_modules/mkdirp Completed in 395ms
+421 timing reifyNode:node_modules/react-native-cli/node_modules/concat-map Completed in 409ms
+422 timing reifyNode:node_modules/react-native-cli/node_modules/is-negative-zero Completed in 410ms
+423 timing reifyNode:node_modules/react-native-cli/node_modules/isstream Completed in 413ms
+424 timing reifyNode:node_modules/react-native-cli/node_modules/semver Completed in 421ms
+425 timing reifyNode:node_modules/react-native-cli/node_modules/glob Completed in 428ms
+426 timing reifyNode:node_modules/react-native-cli/node_modules/is-arguments Completed in 427ms
+427 http fetch GET 200 https://registry.npmjs.org/foreach/-/foreach-2.0.5.tgz 387ms
+428 timing reifyNode:node_modules/react-native-cli/node_modules/foreach Completed in 433ms
+429 timing reifyNode:node_modules/react-native-cli/node_modules/define-properties Completed in 436ms
+430 timing reifyNode:node_modules/react-native-cli/node_modules/side-channel Completed in 436ms
+431 timing reifyNode:node_modules/react-native-cli/node_modules/is-string Completed in 446ms
+432 timing reifyNode:node_modules/react-native-cli/node_modules/is-regex Completed in 444ms
+433 timing reifyNode:node_modules/react-native-cli/node_modules/function-bind Completed in 445ms
+434 timing reifyNode:node_modules/react-native-cli/node_modules/get-intrinsic Completed in 449ms
+435 timing reifyNode:node_modules/react-native-cli/node_modules/is-date-object Completed in 449ms
+436 timing reifyNode:node_modules/react-native-cli/node_modules/object-keys Completed in 449ms
+437 http fetch GET 200 https://registry.npmjs.org/cycle/-/cycle-1.0.3.tgz 415ms
+438 timing reifyNode:node_modules/react-native-cli/node_modules/cycle Completed in 455ms
+439 timing reifyNode:node_modules/react-native-cli/node_modules/call-bind Completed in 456ms
+440 http fetch GET 200 https://registry.npmjs.org/array-filter/-/array-filter-1.0.0.tgz 413ms
+441 timing reifyNode:node_modules/react-native-cli/node_modules/array-filter Completed in 461ms
+442 timing reifyNode:node_modules/react-native-cli/node_modules/is-symbol Completed in 463ms
+443 timing reifyNode:node_modules/react-native-cli/node_modules/is-callable Completed in 463ms
+444 timing reifyNode:node_modules/react-native-cli/node_modules/object-is Completed in 462ms
+445 timing reifyNode:node_modules/react-native-cli/node_modules/regexp.prototype.flags Completed in 466ms
+446 timing reifyNode:node_modules/react-native-cli/node_modules/string.prototype.trimstart Completed in 477ms
+447 timing reifyNode:node_modules/react-native-cli/node_modules/string.prototype.trimend Completed in 477ms
+448 timing reifyNode:node_modules/react-native-cli/node_modules/has-symbols Completed in 477ms
+449 http fetch GET 200 https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.10.tgz 450ms
+450 timing reifyNode:node_modules/react-native-cli/node_modules/stack-trace Completed in 482ms
+451 http fetch GET 200 https://registry.npmjs.org/colors/-/colors-0.6.2.tgz 440ms
+452 timing reifyNode:node_modules/react-native-cli/node_modules/colors Completed in 484ms
+453 http fetch GET 200 https://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz 455ms
+454 timing reifyNode:node_modules/react-native-cli/node_modules/eyes Completed in 490ms
+455 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz 408ms
+456 timing reifyNode:node_modules/react-native-cli/node_modules/isarray Completed in 491ms
+457 http fetch GET 200 https://registry.npmjs.org/available-typed-arrays/-/available-typed-arrays-1.0.2.tgz 437ms
+458 timing reifyNode:node_modules/react-native-cli/node_modules/available-typed-arrays Completed in 496ms
+459 timing reifyNode:node_modules/react-native-cli/node_modules/es-to-primitive Completed in 494ms
+460 http fetch GET 200 https://registry.npmjs.org/is-weakset/-/is-weakset-2.0.1.tgz 448ms
+461 timing reifyNode:node_modules/react-native-cli/node_modules/is-weakset Completed in 501ms
+462 http fetch GET 200 https://registry.npmjs.org/is-weakmap/-/is-weakmap-2.0.1.tgz 448ms
+463 timing reifyNode:node_modules/react-native-cli/node_modules/is-weakmap Completed in 505ms
+464 timing reifyNode:node_modules/react-native-cli/node_modules/minimist Completed in 502ms
+465 http fetch GET 200 https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.3.tgz 469ms
+466 timing reifyNode:node_modules/react-native-cli/node_modules/is-typed-array Completed in 511ms
+467 http fetch GET 200 https://registry.npmjs.org/is-bigint/-/is-bigint-1.0.0.tgz 450ms
+468 timing reifyNode:node_modules/react-native-cli/node_modules/is-bigint Completed in 515ms
+469 http fetch GET 200 https://registry.npmjs.org/which-boxed-primitive/-/which-boxed-primitive-1.0.1.tgz 446ms
+470 timing reifyNode:node_modules/react-native-cli/node_modules/which-boxed-primitive Completed in 523ms
+471 http fetch GET 200 https://registry.npmjs.org/read/-/read-1.0.7.tgz 415ms
+472 timing reifyNode:node_modules/react-native-cli/node_modules/read Completed in 525ms
+473 http fetch GET 200 https://registry.npmjs.org/is-set/-/is-set-2.0.1.tgz 458ms
+474 timing reifyNode:node_modules/react-native-cli/node_modules/is-set Completed in 529ms
+475 http fetch GET 200 https://registry.npmjs.org/is-boolean-object/-/is-boolean-object-1.0.1.tgz 470ms
+476 timing reifyNode:node_modules/react-native-cli/node_modules/is-boolean-object Completed in 533ms
+477 http fetch GET 200 https://registry.npmjs.org/is-number-object/-/is-number-object-1.0.4.tgz 480ms
+478 timing reifyNode:node_modules/react-native-cli/node_modules/is-number-object Completed in 535ms
+479 http fetch GET 200 https://registry.npmjs.org/is-map/-/is-map-2.0.1.tgz 469ms
+480 timing reifyNode:node_modules/react-native-cli/node_modules/is-map Completed in 536ms
+481 http fetch GET 200 https://registry.npmjs.org/which-collection/-/which-collection-1.0.1.tgz 461ms
+482 timing reifyNode:node_modules/react-native-cli/node_modules/which-collection Completed in 541ms
+483 timing reifyNode:node_modules/react-native-cli/node_modules/object.assign Completed in 541ms
+484 http fetch GET 200 https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.2.tgz 475ms
+485 timing reifyNode:node_modules/react-native-cli/node_modules/which-typed-array Completed in 548ms
+486 timing reifyNode:node_modules/react-native-cli/node_modules/object-inspect Completed in 1693ms
+487 http fetch GET 200 https://registry.npmjs.org/async/-/async-0.2.10.tgz 1598ms
+488 timing reifyNode:node_modules/react-native-cli/node_modules/async Completed in 1694ms
+489 http fetch GET 200 https://registry.npmjs.org/i/-/i-0.3.6.tgz 1609ms
+490 timing reifyNode:node_modules/react-native-cli/node_modules/i Completed in 1701ms
+491 http fetch GET 200 https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz 1609ms
+492 timing reifyNode:node_modules/react-native-cli/node_modules/ncp Completed in 1704ms
+493 http fetch GET 200 https://registry.npmjs.org/pkginfo/-/pkginfo-0.4.1.tgz 1603ms
+494 timing reifyNode:node_modules/react-native-cli/node_modules/pkginfo Completed in 1712ms
+495 http fetch GET 200 https://registry.npmjs.org/pkginfo/-/pkginfo-0.3.1.tgz 1627ms
+496 timing reifyNode:node_modules/react-native-cli/node_modules/winston/node_modules/pkginfo Completed in 1726ms
+497 http fetch GET 200 https://registry.npmjs.org/utile/-/utile-0.2.1.tgz 1623ms
+498 http fetch GET 200 https://registry.npmjs.org/es-get-iterator/-/es-get-iterator-1.1.1.tgz 1647ms
+499 timing reifyNode:node_modules/react-native-cli/node_modules/es-get-iterator Completed in 1732ms
+500 timing reifyNode:node_modules/react-native-cli/node_modules/utile Completed in 1733ms
+501 http fetch GET 200 https://registry.npmjs.org/revalidator/-/revalidator-0.1.8.tgz 1623ms
+502 timing reifyNode:node_modules/react-native-cli/node_modules/revalidator Completed in 1736ms
+503 http fetch GET 200 https://registry.npmjs.org/deep-equal/-/deep-equal-2.0.4.tgz 1652ms
+504 timing reifyNode:node_modules/react-native-cli/node_modules/deep-equal Completed in 1738ms
+505 http fetch GET 200 https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz 1636ms
+506 timing reifyNode:node_modules/react-native-cli/node_modules/prompt Completed in 1754ms
+507 http fetch GET 200 https://registry.npmjs.org/winston/-/winston-0.8.3.tgz 1686ms
+508 timing reifyNode:node_modules/react-native-cli/node_modules/winston Completed in 1788ms
+509 timing reifyNode:node_modules/react-native-cli/node_modules/is-typed-array/node_modules/es-abstract Completed in 2113ms
+510 timing reifyNode:node_modules/react-native-cli/node_modules/which-typed-array/node_modules/es-abstract Completed in 2112ms
+511 timing reifyNode:node_modules/react-native-cli/node_modules/regexp.prototype.flags/node_modules/es-abstract Completed in 2113ms
+512 timing reifyNode:node_modules/react-native-cli/node_modules/es-abstract Completed in 2135ms
+513 timing reify:rollback:createSparse Completed in 0ms
+514 timing reify:rollback:retireShallow Completed in 0ms
+515 timing command:install Completed in 3564ms
+516 verbose stack Error: EEXIST: file already exists
+516 verbose stack     at failEEXIST (/usr/local/lib/node_modules/npm/node_modules/bin-links/lib/check-bin.js:46:32)
+516 verbose stack     at checkLink (/usr/local/lib/node_modules/npm/node_modules/bin-links/lib/check-bin.js:38:12)
+516 verbose stack     at async Promise.all (index 0)
+516 verbose stack     at async Function.checkBins (/usr/local/lib/node_modules/npm/node_modules/bin-links/lib/check-bins.js:13:3)
+516 verbose stack     at async Arborist.[checkBins] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/rebuild.js:183:5)
+517 verbose cwd /Users/pwamsley/Desktop/important/programming/full_moon_js/TestApp
+518 verbose Darwin 20.1.0
+519 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "react-native-cli"
+520 verbose node v15.1.0
+521 verbose npm  v7.0.8
+522 error code EEXIST
+523 error path /usr/local/bin/react-native
+524 error EEXIST: file already exists
+525 error File exists: /usr/local/bin/react-native
+526 error Remove the existing file and try again, or run npm
+527 error with --force to overwrite files recklessly.
+528 verbose exit 1

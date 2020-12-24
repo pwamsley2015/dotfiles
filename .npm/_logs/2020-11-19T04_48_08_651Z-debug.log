@@ -1,0 +1,39 @@
+0 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+1 info using npm@7.0.8
+2 info using node@v15.1.0
+3 timing config:load:defaults Completed in 2ms
+4 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 0ms
+5 timing config:load:builtin Completed in 0ms
+6 timing config:load:cli Completed in 1ms
+7 timing config:load:env Completed in 1ms
+8 timing config:load:file:/Users/pwamsley/Desktop/important/programming/full_moon_js/tidalapitest/.npmrc Completed in 0ms
+9 timing config:load:project Completed in 0ms
+10 timing config:load:file:/Users/pwamsley/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:cafile Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setUserAgent Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 7ms
+19 verbose npm-session 07ac891f9acee8fe
+20 timing npm:load Completed in 18ms
+21 timing command:run-script Completed in 19679ms
+22 timing command:start Completed in 19683ms
+23 verbose stack Error: command failed
+23 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/index.js:64:27)
+23 verbose stack     at ChildProcess.emit (node:events:327:20)
+23 verbose stack     at maybeClose (node:internal/child_process:1055:16)
+23 verbose stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:288:5)
+24 verbose pkgid tidalapitest@0.1.0
+25 verbose cwd /Users/pwamsley/Desktop/important/programming/full_moon_js/tidalapitest
+26 verbose Darwin 20.2.0
+27 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+28 verbose node v15.1.0
+29 verbose npm  v7.0.8
+30 error path /Users/pwamsley/Desktop/important/programming/full_moon_js/tidalapitest
+31 error command failed
+32 error signal SIGINT
+33 error command sh -c react-scripts start
+34 verbose exit 1

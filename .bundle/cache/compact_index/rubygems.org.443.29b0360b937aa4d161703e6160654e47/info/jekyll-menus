@@ -1,0 +1,14 @@
+---
+0.0.1 jekyll:~> 3.1|checksum:5c9c54ef61d5a6c8b774cd4f675e6a294823628478630066b458a0036a3d7e43,ruby:>= 2.1.0
+0.0.2 jekyll:~> 3.1|checksum:6cbb9dbc9415627b8ee7e994fb811d698045ddf975d8b10f2e887eb78415309a,ruby:>= 2.1.0
+0.0.3 jekyll:~> 3.1|checksum:cf4ae84c3a49bc40b3ac61806c77150284d1c007f0d305c6da6bc0290508776c,ruby:>= 2.1.0
+0.0.4 jekyll:~> 3.1|checksum:e236cf544b98c3d471f54d7d8e23ad509188c025db4aa204ded6d4d9ec82b872,ruby:>= 2.1.0
+0.0.5 jekyll:~> 3.1|checksum:9fb1415015ad69de4f6aa45a871da37b49de3c34d80063503b7652ac80e5c59d,ruby:>= 2.1.0
+0.1.0 jekyll:~> 3.1|checksum:37589083264f1a98d3aff69f345b0554a3ff275c0d57decae69a1a6f44a6f39d,ruby:>= 2.1.0
+0.2.0 jekyll:~> 3.1|checksum:a65754b9204adc0e92b6a9eb2b62c9f8ed8f29d0a63a0437032f5945a939c5f4,ruby:>= 2.1.0
+0.2.1 jekyll:~> 3.1|checksum:dcd3694adae0146f960c9e3bad3c6111f39c0853e94d0a2ebbca60d6bf3ed00f,ruby:>= 2.1.0
+0.3.0 jekyll:~> 3.1|checksum:ddcc8ccdef71aa5c520dc0eb74973a60b8ab015d74de72576402d3b4bb4ffcb5,ruby:>= 2.1.0
+0.4.0 jekyll:~> 3.1|checksum:d250ee3339b245e23ea96b68bbe45fd9b37249e44f70f2aa3c06ae006dd4c594,ruby:>= 2.1.0
+0.5.0 jekyll:~> 3.1|checksum:42a73734a4996212caf81f352c4b24b5ebf26ea3bedb8a89a3c3b0751f75d092,ruby:>= 2.1.0
+0.6.0 jekyll:~> 3.1|checksum:f216b7999c71fab5d66a7e6d7acc09f1b6932a85c450e1476e291196d64a8c0d,ruby:>= 2.1.0
+0.6.1 jekyll:< 5.0&>= 3.6|checksum:796df514b31be703eacb57acc7aa98b3fe7463cea8467c4d56af6a4590039180,ruby:>= 2.4.0

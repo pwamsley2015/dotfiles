@@ -1,0 +1,344 @@
+<!--- Page(page_conn_problem_docsis_cable_disconnected)=[] ---><HTML><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"><META HTTP-EQUIV="EXPIRES" CONTENT="Wed, 19 Feb 2020 08:20:10 GMT"><META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"><META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"><link rel="stylesheet" type="text/css" href="cv.css"><TITLE>OpenRG Automatic Setup</TITLE><STYLE type="text/css">HTML {height: 100%;}
+BODY {color: #686868; font-family: Verdana, Helvetica, Arial, sans-serif; direction: ltr;}
+TD, INPUT, OPTION, SELECT {font-size: 13px; color: #686868;}
+TD.GRID {border-left:1px solid #ffffff;border-top:1px solid #ffffff; border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF; color: #444444;}
+TD.GRID_NO_LEFT {border-left:0px;border-top:1px solid #ffffff; border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF; color: #444444;}
+TD.GRID_NO_RIGHT {border-left:1px solid#ffffff; border-top:1px solid #ffffff; border-right:0px;border-bottom:1px solid #FFFFFF; color: #444444;}
+.PAGE_HEADER {font-size: 16px;}
+.REMARK {font-size: 11px;}
+.BUTTON {cursor: pointer;}
+.DATA {color: #444444;}
+TD.GRID A {color: #3F79B9;}
+TD.GRID_NO_LEFT A {color: #3F79B9;}
+TD.GRID_NO_RIGHT A {color: #3F79B9;}
+TD.DATA A {color: #3F79B9;}
+.frame_header {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif; Font-Size:12px; font-weight:bold; color: #686868; text-align:left;}
+.frame_header A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif; Font-Size:12px; font-weight:bold; color: #686868; text-align:left;}
+TD.site_map_level_1 A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif; Font-Size:14px; font-weight:bold; color: #686868; text-align:left;}
+TD.site_map_level_2 A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif; Font-Size:12px; font-weight:bold; color: #686868; text-align:left;}
+TD.site_map_level_3 A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif; Font-Size:10px; font-weight:bold; color: #686868; text-align:left;}
+.admin_user{FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; color: black;}
+TD.admin_user A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; color: black;}
+.admin{FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; color: gray;}
+TD.admin A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; color: gray;}
+TD.admin_separator{FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; color: gray;}
+TD.tab2 A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; font-weight:bold; color: #686868;}
+.tab2_sel{background: #7591b3}
+TD.tab2_sel A:hover {text-decoration: none}
+TD.tab2_sel A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size: 10px; font-weight:bold; color: white;}
+TD.tab3 A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; font-weight:bold; color: #686868;}
+.tab3_sel{background: #90aac5}
+TD.tab3_sel A:hover {text-decoration: none}
+TD.tab3_sel A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; font-weight:bold; color: white;}
+TD.tab3_separator{FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:9px; color: #6E8BAD;}
+TD.tab4 A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; color: #686868;}
+TD.tab4 A:hover {text-decoration: none; color: black;}
+TD.tab4_sel A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:11px; font-weight:bold; color: #686868;}
+TD.tab4_sel A:hover {text-decoration: none}
+TD.graphic_button A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; font-weight:bold; color: #686868;}
+TD.graphic_button A:hover {text-decoration: none}
+TD.table_button A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:10px; color: #686868;}
+TD.table_button A:hover {text-decoration: none}
+TD.g_button{background: none}
+TD.g_button_mo{background: #e6f1fc}
+.title_main{FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:24px; font-weight:bold; color: #686868;}
+.rg_boxes{FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size: 13px;border: #98b7d9 1px solid;padding-left: 2px;}
+.panel{background: none;cursor: pointer;}
+.panel_mo{background: #e6f1fc}
+TD.panel_mo A:hover {text-decoration: none}
+TD.data{border-left: 1px solid #ffffff; border-top: 1px solid #ffffff; border-right: 1px solid #ffffff; border-bottom: 1px solid #ffffff; color: #444444;}
+TABLE#ltr{direction:ltr}
+.home_welcome{FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:14px; color: #444444;}
+TABLE#struct_table {height:100%;}TD#page_topbar, TD#footer_cell {height:52px;}TD.rg_tab1 A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:11px; font-weight:bold; color: #686868;}
+TD.rg_tab1 A:hover {text-decoration: none}
+TD.rg_tab1_sel A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:12px; font-weight:bold; color: #686868;}
+TD.rg_tab1_sel A:hover {text-decoration: none}
+.rg_title_sub{FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:16px; color: #6E8BAD;}
+TD.rg_help_link_hdr A {FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:15px; font-weight:bold; color: #3f79b9;}
+TD.rg_help_link_hdr A:visited {text-decoration: none}
+TD.rg_help_link_hdr A:link {text-decoration: none}
+TD.rg_help_link_hdr_arrow{FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:13px; font-weight:bold; color: #f27d00;}
+TD.rg_help_link_desc{FONT-FAMILY: Arial, MS Arial, Helvetica, sans-serif;Font-Size:13px; font-weight:bold; color: #000000;}
+A {color: #3F79B9;}
+A:link {TEXT-DECORATION: none}
+A:visited {TEXT-DECORATION: none}
+A:hover {TEXT-DECORATION: underline}
+</STYLE></HEAD><BODY alink=#3F79B9 vlink=#3F79B9 link=#3F79B9 bgcolor=#FFFFFFFF topmargin=0 leftmargin=0 marginheight=0 marginwidth=0 onload=loaded()><FORM name="form_contents" method=POST action="index.cgi" enctype="application/x-www-form-urlencoded" onSubmit="if (window.is_submit && is_submit==1) return false; is_submit=1; return true; "><INPUT type=HIDDEN name="page" value="page_conn_problem_docsis_cable_disconnected"><INPUT type=HIDDEN name="prev_page" value=""><INPUT type=HIDDEN name="page_title" value=""><INPUT type=HIDDEN name="intercept_id" value="11"><INPUT type=HIDDEN name="troubleshoot_seq" value="0"><INPUT type=HIDDEN name="troubleshooter_idx" value="-1"><INPUT type=HIDDEN name="org_url" value="http://download.eclipse.org/usssdk/drops/nightly/N660/p2.index"><INPUT type=HIDDEN name="no_dns" value="0"><INPUT type=HIDDEN name="page_session_id" value="F8ECAC2ED51A99BA"><INPUT type=HIDDEN name="mimic_button_field" value=""><INPUT type=HIDDEN name="button_value" value=""><INPUT type=HIDDEN name="strip_page_top" value="0"><INPUT type=HIDDEN name="strip_page_tabs" value="0"><INPUT type=HIDDEN name="strip_page_logo" value="0"><INPUT type=HIDDEN name="scroll_top" value="0"><INPUT type=HIDDEN name="waiting_context_instance_id" value="25"><INPUT type=HIDDEN name="server_push_data_stamp" value="0"><SCRIPT type="text/javascript"><!--
+function build_params_str()
+{
+    var inputs = document.form_contents.getElementsByTagName("input");
+    var input_params = "";
+    for (var i = 0; i < inputs.length; i++)
+    {
+ input_params = input_params + "&" + inputs[i].name + "=" +
+     encodeURIComponent(inputs[i].value);
+    }
+    return input_params;
+}
+function ajax_channel_open(channel_open_func, ajax_channel_params, handler, cgi,
+    params, retry, period, channel_close_func)
+{
+    var d = new Date();
+    var xml_http;
+    try
+    {
+ xml_http = new XMLHttpRequest();
+    }
+    catch (e)
+    {
+ try
+ {
+     xml_http = new ActiveXObject("Msxml2.XMLHTTP");
+ }
+ catch (e)
+ {
+     try
+     {
+  xml_http = new ActiveXObject("Microsoft.XMLHTTP");
+     }
+     catch (e)
+     {
+  alert("Your browser does not support AJAX!");
+  return false;
+     }
+ }
+    }
+    xml_http.onreadystatechange = function()
+    {
+ if (xml_http.readyState == 4 && !is_closing)
+ {
+     ajax_channel_timeout_clear(ajax_channel_params);
+     try
+     {
+  if (xml_http.status == 200 && handler(xml_http))
+      retry = 0;
+  if (xml_http.status == 400)
+  {
+      ajax_channel_params.retry_id = setTimeout(function(){
+   document.location.reload(true);
+      }, 1000);
+      retry = 0;
+  }
+     }
+     catch (e)
+     {
+     }
+     if (retry || period)
+     {
+  ajax_channel_params.retry_id = setTimeout(channel_open_func,
+      period ? period : 1000);
+     }
+ }
+    }
+    var input_params;
+    xml_http.open("POST", cgi + "?rand=" + d.getTime(), true);
+    xml_http.setRequestHeader("Connection", "Close");
+    xml_http.setRequestHeader("Content-Type",
+        "application/x-www-form-urlencoded");
+    input_params = build_params_str();
+    xml_http.send(params + input_params);
+    ajax_channel_params.retry_id = null;
+    if (channel_close_func !== undefined)
+    {
+ ajax_channel_timeout_set(ajax_channel_params, channel_open_func,
+     channel_close_func);
+    }
+    return xml_http;
+}
+function ajax_eval(xml_http)
+{
+    eval(xml_http.responseText);
+    return 1;
+}
+function ajax_channel_close(ajax_channel_params)
+{
+    if (ajax_channel_params.xml_http)
+    {
+ is_closing = 1;
+ ajax_channel_params.xml_http.abort();
+ ajax_channel_params.xml_http = null;
+ is_closing = 0;
+    }
+    if (ajax_channel_params.retry_id)
+    {
+ clearTimeout(ajax_channel_params.retry_id);
+ ajax_channel_params.retry_id = null;
+    }
+    ajax_channel_timeout_clear(ajax_channel_params);
+}
+function ajax_channel_timeout_clear(ajax_channel_params)
+{
+    if (ajax_channel_params.timeout_id)
+    {
+ clearTimeout(ajax_channel_params.timeout_id);
+ ajax_channel_params.timeout_id = null;
+    }
+}
+function ajax_channel_timeout_set(ajax_channel_params, channel_open_func,
+    channel_close_func)
+{
+    ajax_channel_timeout_clear(ajax_channel_params);
+    ajax_channel_params.timeout_id = setTimeout(function(){
+ ajax_channel_params.timeout_id = null;
+ channel_close_func();
+ ajax_channel_params.retry_id = setTimeout(channel_open_func, 0);
+    }, 5000);
+}
+var onload_notify_params = {
+    "xml_http" : null,
+    "retry_id" : null
+};
+var onload_action_timer = null;
+function onload_notify_channel_open()
+{
+    onload_notify_params.xml_http = ajax_channel_open(
+ "onload_notify_channel_open()", onload_notify_params, onload_notify,
+ "index.cgi", "problem%5fstart%5ftest=1&page=page%5fconn%5fproblem%5fdocsis%5fcable%5fdisconnected", 0, 0);
+    onload_action_timer = setTimeout("do_action()", 10000);
+}
+function onload_notify_channel_close()
+{
+    ajax_channel_close(onload_notify_params);
+    if (onload_action_timer)
+ clearTimeout(onload_action_timer);
+    onload_action_timer = null;
+}
+function onload_notify(xml_http)
+{
+    do_action();
+    if (onload_action_timer)
+ clearTimeout(onload_action_timer);
+    onload_action_timer = null;
+    return 1;
+}
+function do_action()
+{
+    server_push_channel_open0();
+}
+function launch_javascript()
+{
+    var form = document.getElementsByTagName("form").item(0);
+    var script, script_innerhtml;
+    var js;
+    script = form.getElementsByTagName("script").item(0);
+    script_innerhtml = script.innerHTML;
+    js = script_innerhtml.replace(/.*<!--/i,"").replace(/\/\/ -->.*/ig,"");
+    new_script = document.createElement('script');
+    new_script.text = js;
+    form.removeChild(script);
+    form.appendChild(new_script);
+}
+function replace_body(xml_http)
+{
+    var loc = xml_http.getResponseHeader('External-Location');
+    if (loc != null && loc != "")
+    {
+ window.location = loc;
+ return 1;
+    }
+    if (xml_http.responseText.length < 1)
+ return 0;
+    document.body.innerHTML = xml_http.responseText;
+    loaded_requests_close();
+    launch_javascript();
+    return 1;
+}
+var server_push_params0 = {
+    "xml_http" : null,
+    "retry_id" : null,
+    "timeout_id" : null
+};
+function server_push_channel_open0()
+{
+    server_push_params0.xml_http = ajax_channel_open(
+ "server_push_channel_open0()", server_push_params0, replace_body, 'index.cgi', 'server%5fpush%5fchannel%5fopen=1&server%5fpush%5fentity%5fid=25&page=page%5fconn%5fproblem%5fdocsis%5fcable%5fdisconnected', 1,
+ 0, server_push_channel_close0);
+}
+function server_push_channel_close0()
+{
+    ajax_channel_close(server_push_params0);
+}
+var is_submit = 0;
+var timer = 0;
+var is_loaded = 0;
+var is_closing = 0;
+
+function loaded()
+{
+  is_loaded = 1;
+  loaded_requests_open();
+}
+function loaded_requests_open()
+{
+  try {document.execCommand("BackgroundImageCache", false, true); } catch(e) {}
+focus();
+onload_notify_channel_open();
+if (window.location != top.location)
+    top.location = "http://openrg.home:80/index.cgi?intercept%5fid=11&troubleshoot%5fseq=0&host%5fmac=78%3a31%3ac1%3acf%3a6c%3a10&page=page%5fconn%5fproblem%5fdocsis%5fcable%5fdisconnected&req%5fmode=0&strip%5fpage%5ftop=0&strip%5fpage%5ftabs=0&strip%5fpage%5flogo=0&scroll%5ftop=0&page%5fsession%5fid=&button%5fvalue=";
+}
+function loaded_requests_close()
+{
+  server_push_channel_close0();
+onload_notify_channel_close();
+
+}
+var is_button_in_focus=false;
+var is_textarea_in_focus=false;
+var suppress_keystroke=0;
+
+function change_field_if_exist(field, value)
+{
+    if (document.getElementById(field))
+	document.getElementById(field).innerHTML = value;
+}
+function getViewportScrollY()
+{
+    var scrollY = 0;
+    if (document.documentElement &&
+ document.documentElement.scrollTop)
+    {
+ scrollY = document.documentElement.scrollTop;
+    }
+    else if (document.body && document.body.scrollTop)
+ scrollY = document.body.scrollTop;
+    else if (window.pageYOffset)
+ scrollY = window.pageYOffset;
+    else if (window.scrollY)
+ scrollY = window.scrollY;
+    return scrollY;
+}
+function mimic_button(button_name, use_default_cgi)
+{
+    if (1)
+    {
+ if (is_submit)
+     return;
+    }
+    f = document.form_contents;
+    f.mimic_button_field.value = button_name;
+    is_submit = 1;
+    setTimeout("is_submit=0", 1000);
+    if (timer)
+    {
+        clearTimeout(timer);
+ timer = 0;
+    }
+    if (use_default_cgi)
+    {
+        f.encoding = "application/x-www-form-urlencoded";
+        f.action = "index.cgi?org_url=http%3A%2F%2Fdownload.eclipse.org%2Fusssdk%2Fdrops%2Fnightly%2FN660%2Fp2.index";
+    }
+    loaded_requests_close();
+    f.scroll_top.value = getViewportScrollY();
+    f.submit();
+}
+function mimic_button_new_window(button_name, use_default_cgi)
+{
+    var temp = document.form_contents.target;
+    document.form_contents.target = '_blank';
+    mimic_button(button_name, use_default_cgi);
+    document.form_contents.target = temp;
+}
+
+// -->
+</SCRIPT><TABLE border=0 cellpadding=0 cellspacing=0 width="100%" id="struct_table" name="struct_table"><TR><TD colspan=5 height="5"><IMG border=0 src="/images/empty.gif" width="2" height="5"></TD></TR><TR><TD rowspan=2 width="5"><IMG border=0 src="/images/empty.gif" width="5" height="2"></TD><TD rowspan=2 width="5"><IMG border=0 src="/images/empty.gif" width="5" height="2"></TD><TD id="page_topbar" valign=TOP><TABLE border=0 cellpadding=0 cellspacing=0 width="100%"><TR><TD id="page_logo_row" align=CENTER valign=MIDDLE><TABLE border=0 cellpadding=0 cellspacing=0 width="460"><TR><TD valign=MIDDLE width="50%"><FONT title="11" alt="11"><IMG border=0 src="/images/cablevision_logo.jpg"></FONT></TD><TD align=RIGHT valign=BOTTOM width="50%">&nbsp;</TD></TR></TABLE></TD></TR></TABLE></TD><TD rowspan=2 width="5"><IMG border=0 src="/images/empty.gif" width="5" height="2"></TD><TD rowspan=2 width="5"><IMG border=0 src="/images/empty.gif" width="5" height="2"></TD></TR><TR><TD id="page_body" valign=MIDDLE><CENTER><TABLE border=0 cellpadding=0 cellspacing=0 width="460"><TR><TD bgcolor=#FFFFFF align=CENTER valign=MIDDLE><TABLE border=0 cellpadding=0 cellspacing=0 width="60%"><TR><TD align=CENTER valign=TOP><TABLE border=0 cellpadding=0 cellspacing=0 width="100%"><TR><TD><TABLE border=0 cellpadding=0 cellspacing=0 width="100%" id="greyBorder" name="greyBorder"><TR><TD valign=TOP width="10"><IMG border=0 src="/images/empty.gif" width="10" height="2"></TD><TD width="100%"><TABLE border=0 cellpadding=0 cellspacing=0 width="100%" id="frame_data_noname0" name="frame_data_noname0"><TR><TD valign=TOP>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD><TD valign=MIDDLE width="100%"><TABLE border=0 cellpadding=0 cellspacing=0><TR><TD align=CENTER valign=MIDDLE nowrap><B><FONT size=5 color=#000000 face="Verdana, Helvetica, Arial, sans-serif">The coaxial cable is not properly connected<BR></FONT></B></TD></TR><TR><TD align=CENTER valign=MIDDLE><FONT title="11" alt="11"><IMG border=0 src="/images/cable_disconnected_docsis.jpg"><BR><BR><TABLE border=0 cellpadding=0 cellspacing=0 width="100%"><TR><TD valign=TOP><TD valign=TOP><FONT size=3 color=#000000 face="Arial, MS Arial, Helvetica, sans-serif"><FONT size=3 color=#787878 face="Arial, MS Arial, Helvetica, sans-serif">Check and tighten the coaxial cable connection from the wall to the back of the cable modem.<BR><BR>If the cable is properly connected and you still do not have Internet connectivity, click 'Continue'.<TABLE border=0 cellpadding=0 cellspacing=0 width="100%"><TR><TD align=RIGHT valign=TOP nowrap><BR><BR><A name='goto_troubleshooter' href="javascript:mimic_button('goto_troubleshooter: docsis..', 1)" onFocus="is_button_in_focus=true;" onBlur="is_button_in_focus=false;" alt="" title="" class="ctrlButton green"><SPAN  class=ctrlButtonIn1><SPAN  class=ctrlButtonIn2><SPAN  class=ctrlButtonIn3>Continue &gt;</SPAN></SPAN></SPAN></A></TD></TR></TABLE></FONT></FONT></TD></TD></TR></TABLE></FONT></TD></TR></TABLE></TD></TR></TABLE></TD><TD valign=TOP width="100%"><IMG border=0 src="/images/empty.gif" width="10" height="2"></TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE></CENTER></TD></TR><TR><TD id="footer_cell">&nbsp;</TD></TR><TR><TD colspan=5 height="5"><IMG border=0 src="/images/empty.gif" width="2" height="5"></TD></TR></TABLE></FORM></BODY></HTML>

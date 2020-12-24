@@ -1,0 +1,10 @@
+2019-03-04 01:51:55 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-03-04 01:51:57 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-03-04 01:51:59 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@1652d0a4,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-03-04 01:51:59 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-03-04 01:52:00 [main] INFO  net.runelite.client.RuneLite - Client initialization took 7753ms. Uptime: 8344ms
+2019-03-04 19:01:25 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-03-04 19:01:27 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-03-04 19:01:29 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@139508d3,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-03-04 19:01:29 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-03-04 19:01:31 [main] INFO  net.runelite.client.RuneLite - Client initialization took 9567ms. Uptime: 10116ms

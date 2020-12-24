@@ -1,0 +1,12 @@
+2019-08-18 14:37:02 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 273267602.227
+2019-08-18 14:37:02 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-08-18 14:37:02 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-08-18 14:37:03 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-08-18 14:37:05 [main] INFO  net.runelite.client.RuneLite - Client initialization took 6009ms. Uptime: 7029ms
+2019-08-18 14:37:05 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@57aed251,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-08-18 14:37:28 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 273267602.227
+2019-08-18 14:37:28 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-08-18 14:37:29 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-08-18 14:37:30 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-08-18 14:37:31 [main] INFO  net.runelite.client.RuneLite - Client initialization took 5635ms. Uptime: 6511ms
+2019-08-18 14:37:31 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@15a84b9d,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]

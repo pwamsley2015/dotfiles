@@ -1,0 +1,64 @@
+{
+	"name": "flow",
+	"displayName": "Flow",
+	"description": "my description",
+	"version": "0.0.3",
+	"publisher": "jlabedo",
+	"engines": {
+		"vscode": "^1.19.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.sayHello",
+		"onLanguage:javascriptreact",
+		"onLanguage:javascript"
+	],
+	"main": "./lib/client",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.sayHello",
+				"title": "Hello World"
+			}
+		]
+	},
+	"scripts": {
+		"precommit": "lint-staged",
+		"build": "babel src/ -d lib/",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test",
+		"publish:vsce": "vsce publish patch",
+		"publish": "run-s build publish:vsce"
+	},
+	"lint-staged": {
+		"src/**/*.{js,jsx,json,css}": [
+			"prettier --write",
+			"git add"
+		]
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-eslint": "^8.2.1",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-flow": "^6.23.0",
+		"eslint": "^4.6.1",
+		"eslint-plugin-flowtype": "^2.41.1",
+		"husky": "^0.14.3",
+		"lint-staged": "^6.0.1",
+		"npm-run-all": "^4.1.2",
+		"prettier": "^1.10.2"
+	},
+	"dependencies": {
+		"flow-language-server": "^0.2.5",
+		"vscode": "^1.1.6",
+		"vscode-languageclient": "^3.5.0",
+		"vscode-languageserver": "^3.5.0"
+	},
+	"__metadata": {
+		"id": "601c900a-6d72-4884-bbe1-672e502a791b",
+		"publisherId": "d6b190c8-0a1f-4076-b3bf-20712cfa6c83",
+		"publisherDisplayName": "jlabedo"
+	}
+}

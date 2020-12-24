@@ -1,0 +1,30 @@
+{
+    "dev.pageMargin.color": "rgba(0, 0, 0, 0.2)",
+    "dev.enable_disabled_in_property_page": false,
+    "view.undoLevel": 10,
+    "view.startupscreen.gridview.enabled": true,
+    "dev.stencil.path": "none",
+    "dev.stencil.dir": "none",
+    "dev.enabled": false,
+    "painterPropertyMap": "fillColor,foreColor,textColor,strokeColor,borderColor,strokeStyle,textAlign,textFont,shadowStyle,shadowColor,withBlur,withShadow,textPadding,startFillColor,endFillColor",
+    "object.snapping.enabled": true,
+    "grid.enabled": false,
+    "ui.collapsable_pane.left_pane.active_id": "collectionPane",
+    "Collection.lastUsedCollection.id": "Evolus.Common",
+    "edit.gridSize": 5,
+    "dev.enable_disabled_in_menu": false,
+    "ui.collapsable_pane.right_pane.active_id": "sharedPropertyEditor",
+    "edit.cutAndPasteAtTheSamePlace": false,
+    "document.fileHandler.defaultHandlerType": ".epgz",
+    "document.save.recentlyDirPath": "/Users/pwamsley",
+    "recent-documents": [
+        "/Users/pwamsley/selection.epgz",
+        "/Users/pwamsley/mobile.epgz",
+        "/Users/pwamsley/home page.epgz"
+    ],
+    "recent-documents-thumb-map": {
+        "/Users/pwamsley/selection.epgz": "/Users/pwamsley/.pencil/thumbs/b493dd395774483b8fc48c7d351cf5a1.png",
+        "/Users/pwamsley/mobile.epgz": "/Users/pwamsley/.pencil/thumbs/69bbed8a42cc420faba6f8def33a1d89.png",
+        "/Users/pwamsley/home page.epgz": "/Users/pwamsley/.pencil/thumbs/c8a11373ba6d429eb8a5716025ef1adb.png"
+    }
+}

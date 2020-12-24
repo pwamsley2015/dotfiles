@@ -1,0 +1,273 @@
+#0.1.56 BABL_PATH_LENGTH=4 BABL_TOLERANCE=0.000005
+CIE LCH(ab) double
+R'G'B' u8
+	pixels=0 cost=3160 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/CIE.so 0: CIE LCH(ab) double to RGBA double
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl-lies.so 0: RGBA double to RGBA float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: RGBA float to R'G'B'A float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: R'G'B'A float to R'G'B' u8
+----
+CIE Lab double
+R'G'B' double
+	pixels=0 cost=2903 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/CIE.so 0: CIE Lab double to RGBA double
+	BablBase 0: RGBA double to R'G'B'A double
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/double.so 0: R'G'B'A double to R'G'B' double
+----
+R'G'B'A float
+RGBA float
+	pixels=0 cost=1951 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: R'G'B'A float to RGBA float
+----
+RGBA float
+R'G'B'A float
+	pixels=0 cost=1924 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: RGBA float to R'G'B'A float
+----
+RGBA float
+CIE Lab alpha float
+	pixels=0 cost=574 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/CIE.so 0: RGBA float to CIE Lab alpha float
+----
+R'G'B'A float
+CIE Lab alpha float
+	pixels=0 cost=2382 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: R'G'B'A float to RGBA float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/CIE.so 0: RGBA float to CIE Lab alpha float
+----
+CIE Lab alpha float
+RGBA float
+	pixels=0 cost=297 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/CIE.so 0: CIE Lab alpha float to RGBA float
+----
+CIE Lab alpha float
+R'G'B'A float
+	pixels=0 cost=2906 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/CIE.so 0: CIE Lab alpha float to RGBA float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl-lies.so 0: RGBA float to RGBA double
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/double.so 0: RGBA double to R'G'B'A double
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: R'G'B'A double to R'G'B'A float
+----
+R'G'B'A double
+CIE LCH(ab) double
+	pixels=0 cost=3646 error=0.000000
+	BablBase 0: R'G'B'A double to RGBA double
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/CIE.so 0: RGBA double to CIE LCH(ab) double
+----
+CIE LCH(ab) double
+R'G'B' double
+	pixels=0 cost=3232 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/CIE.so 0: CIE LCH(ab) double to RGBA double
+	BablBase 0: RGBA double to R'G'B'A double
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/double.so 0: R'G'B'A double to R'G'B' double
+----
+Y' u8
+RaGaBaA float
+	pixels=0 cost=110 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: Y' u8 to R'G'B' u8
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gegl-fixups.so 0: R'G'B' u8 to RaGaBaA float
+----
+Y u8
+RaGaBaA float
+	pixels=0 cost=102 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl-table-lies.so 0: Y u8 to Y float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl-lies.so 0: Y float to RaGaBaA float
+----
+R'G'B'A u8
+RaGaBaA float
+	pixels=0 cost=135 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gimp-8bit.so 0: R'G'B'A u8 to RGBA float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gegl-fixups.so 0: RGBA float to RaGaBaA float
+----
+R'G'B'A float
+R'G'B'A u8
+	pixels=0 cost=176 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/simple.so 0: R'G'B'A float to R'G'B'A u8
+----
+R'G'B'A float
+R'G'B' u8
+	pixels=0 cost=176 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: R'G'B'A float to R'G'B' u8
+----
+R'G'B'A u8
+RGBA float
+	pixels=0 cost=82 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gegl-fixups.so 0: R'G'B'A u8 to RGBA float
+----
+RGBA float
+R'G'B'A u8
+	pixels=0 cost=1981 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: RGBA float to R'G'B'A float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/simple.so 0: R'G'B'A float to R'G'B'A u8
+----
+Y' u8
+R'G'B' u8
+	pixels=0 cost=31 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: Y' u8 to R'G'B' u8
+----
+Y u8
+Y float
+	pixels=0 cost=22 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl-table-lies.so 0: Y u8 to Y float
+----
+R'G'B' u8
+cairo-RGB24
+	pixels=0 cost=64 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: R'G'B' u8 to R'G'B'A u8
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/cairo.so 0: R'G'B'A u8 to cairo-RGB24
+----
+R'G'B' u8
+R'G'B'A float
+	pixels=0 cost=80 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl-table.so 0: R'G'B' u8 to R'G'B'A float
+----
+R'G'B' u8
+R'G'B'A u8
+	pixels=0 cost=34 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: R'G'B' u8 to R'G'B'A u8
+----
+R'G'B'A u8
+R'G'B'A float
+	pixels=0 cost=96 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl-table.so 0: R'G'B'A u8 to R'G'B'A float
+----
+R'G'B'A u8
+cairo-ARGB32
+	pixels=0 cost=70 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/cairo.so 0: R'G'B'A u8 to cairo-ARGB32
+----
+R'G'B'A double
+RGBA float
+	pixels=0 cost=2035 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: R'G'B'A double to R'G'B'A float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: R'G'B'A float to RGBA float
+----
+R'G'B'A float
+RGBA double
+	pixels=0 cost=1899 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: R'G'B'A float to RGBA float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl-lies.so 0: RGBA float to RGBA double
+----
+R'G'B' u8
+RGB float
+	pixels=0 cost=63 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gimp-8bit.so 0: R'G'B' u8 to RGB float
+----
+RGB float
+R'G'B'A float
+	pixels=0 cost=1809 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: RGB float to R'G'B' float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: R'G'B' float to R'G'B'A float
+----
+R'G'B' u8
+RGBA float
+	pixels=0 cost=81 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gegl-fixups.so 0: R'G'B' u8 to RGBA float
+----
+RaGaBaA float
+R'G'B'A float
+	pixels=0 cost=1956 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gegl-fixups.so 0: RaGaBaA float to RGBA float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: RGBA float to R'aG'aB'aA float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gegl-fixups.so 0: R'aG'aB'aA float to R'G'B'A float
+----
+RaGaBaA float
+RGBA float
+	pixels=0 cost=74 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gegl-fixups.so 0: RaGaBaA float to RGBA float
+----
+RGBA float
+RaGaBaA float
+	pixels=0 cost=61 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gegl-fixups.so 0: RGBA float to RaGaBaA float
+----
+R'G'B' u8
+RaGaBaA float
+	pixels=0 cost=81 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gegl-fixups.so 0: R'G'B' u8 to RaGaBaA float
+----
+cairo-ARGB32
+R'G'B'A u8
+	pixels=0 error=0.000000 [reference]
+----
+R'G'B'A u8-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB
+R'G'B'A u8
+	pixels=0 cost=2141 error=0.000000
+	 R'G'B'A u8-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB to RGBA float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB 1
+	 RGBA float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB to RGBA float 0
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: RGBA float to R'G'B'A float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/simple.so 0: R'G'B'A float to R'G'B'A u8
+----
+R'G'B'A u8-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB
+cairo-ARGB32
+	pixels=0 cost=2131 error=0.000000
+	 R'G'B'A u8-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB to RGBA float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB 1
+	 RGBA float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB to RGBA float 0
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: RGBA float to R'aG'aB'aA float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/cairo.so 0: R'aG'aB'aA float to cairo-ARGB32
+----
+R'G'B'A u8
+R'G'B'A u8-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB
+	pixels=0 cost=2144 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gimp-8bit.so 0: R'G'B'A u8 to RGBA float
+	 RGBA float to RGBA float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB 0
+	 RGBA float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB to R'G'B'A float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB 0
+	 R'G'B'A float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB to R'G'B'A u8-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB 2
+----
+R'G'B'A u8-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB
+R'G'B'A double
+	pixels=0 cost=2068 error=0.000000
+	 R'G'B'A u8-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB to RGBA float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB 0
+	 RGBA float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB to RGBA float 0
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: RGBA float to R'G'B'A float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: R'G'B'A float to R'G'B'A double
+----
+R'G'B'A double
+R'G'B'A u8-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB
+	pixels=0 cost=3651 error=0.000001
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gggl.so 0: R'G'B'A double to R'G'B'A float
+	 R'G'B'A float to R'G'B'A float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB 0
+	 R'G'B'A float-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB to R'G'B'A u16-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB 2
+	 R'G'B'A u16-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB to R'G'B'A u8-space-0.9496,1.0000_0.4443,0.2248_0.1404,0.0491_0.3794,0.7262_sRGB,sRGB,sRGB 0
+----
+R'G'B'A u8
+A double
+	pixels=0 error=0.000000 [reference]
+----
+RGBA float
+Y u8
+	pixels=0 cost=101 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/grey.so 0: RGBA float to Y u8
+----
+Y u8
+cairo-RGB24
+	pixels=0 cost=2094 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gimp-8bit.so 0: Y u8 to RGBA float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/float.so 0: RGBA float to R'G'B'A float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/simple.so 0: R'G'B'A float to R'G'B'A u8
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/cairo.so 0: R'G'B'A u8 to cairo-RGB24
+----
+Y' u8
+Y u16
+	pixels=0 cost=72 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/gimp-8bit.so 0: Y' u8 to Y float
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/simple.so 0: Y float to Y u16
+----
+Y u16
+Y' u8
+	pixels=0 error=0.000000 [reference]
+----
+R'G'B' double
+RGB double
+	pixels=0 cost=2659 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/double.so 0: R'G'B' double to RGB double
+----
+RGB double
+R'G'B' double
+	pixels=0 cost=2893 error=0.000000
+	/private/var/folders/_l/gpdcs0654gdf2zrt9_0d_phc0000gn/T/AppTranslocation/5CCC845B-EFD3-4E45-B7E4-69109DA65B92/d/GIMP-2.10.app/Contents/MacOS/../Resources/lib/babl-0.1/double.so 0: RGB double to R'G'B' double
+----
+R'G'B' double
+CIE Lab double
+	pixels=0 error=0.000000 [reference]
+----

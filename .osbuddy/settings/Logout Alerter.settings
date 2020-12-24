@@ -1,0 +1,1 @@
+{"Alert on 6h logout?":{"type":"toggle","value":true},"Alert on meeting idle timeout?":{"type":"toggle","value":true},"enabled":{"type":"hidden","value":"true"}}

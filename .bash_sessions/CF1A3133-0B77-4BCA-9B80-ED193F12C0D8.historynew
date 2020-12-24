@@ -1,0 +1,8 @@
+killall audio
+sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`
+cd /Users/pwamsley/Desktop/important/programming/Friday/FridayFiles/
+touch training_vars.Friday
+cd ..
+git add --all
+git commit -m "Training log base files added and Variations save to file"
+git push

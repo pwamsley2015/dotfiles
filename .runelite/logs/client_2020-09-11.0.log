@@ -1,0 +1,183 @@
+2020-09-11 12:28:40 [main] INFO  net.runelite.client.RuneLite - RuneLite 1.6.26.1 (launcher version 2.1.3) starting up, args: none
+2020-09-11 12:28:41 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2020-09-11 12:28:41 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2020-09-11 12:28:42 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 716162773.246
+2020-09-11 12:28:42 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2020-09-11 12:28:42 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2020-09-11 12:28:43 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2020-09-11 12:28:45 [main] INFO  net.runelite.client.RuneLite - Client initialization took 5740ms. Uptime: 7026ms
+2020-09-11 12:28:46 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,61,162,387x267,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,387x267,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@6f1aa0e9,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2020-09-11 13:43:26 [main] INFO  net.runelite.client.RuneLite - RuneLite 1.6.26.1 (launcher version 2.1.3) starting up, args: none
+2020-09-11 13:43:27 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2020-09-11 13:43:27 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2020-09-11 13:43:27 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 716162773.246
+2020-09-11 13:43:27 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2020-09-11 13:43:28 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2020-09-11 13:43:29 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2020-09-11 13:43:31 [main] INFO  net.runelite.client.RuneLite - Client initialization took 4880ms. Uptime: 6013ms
+2020-09-11 13:43:31 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,61,162,387x267,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,387x267,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@1fa8004,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2020-09-11 19:17:10 [main] INFO  net.runelite.client.RuneLite - RuneLite 1.6.26.1 (launcher version 2.1.3) starting up, args: none
+2020-09-11 19:17:12 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2020-09-11 19:17:12 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2020-09-11 19:17:12 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 716162773.246
+2020-09-11 19:17:13 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2020-09-11 19:17:13 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2020-09-11 19:17:14 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2020-09-11 19:17:16 [main] INFO  net.runelite.client.RuneLite - Client initialization took 5885ms. Uptime: 7144ms
+2020-09-11 19:17:16 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,61,162,387x267,invalid,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,387x267,invalid,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@34c4a20d,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2020-09-11 19:36:23 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at java.base/java.util.stream.ReferencePipeline$4$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:199)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.IntPipeline.anyMatch(IntPipeline.java:513)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.processXpDrop(XpDropPlugin.java:117)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.onScriptPreFired(XpDropPlugin.java:88)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:73)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:222)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:165)
+	at client.ir(client.java:41218)
+	at jy.k(jy.java:34142)
+	at cy.z(cy.java:97)
+	at client.hn(client.java:3050)
+	at client.ar(client.java:1190)
+	at bw.u(bw.java:334)
+	at bw.run(bw.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-09-11 19:39:18 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at java.base/java.util.stream.ReferencePipeline$4$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:199)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.IntPipeline.anyMatch(IntPipeline.java:513)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.processXpDrop(XpDropPlugin.java:117)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.onScriptPreFired(XpDropPlugin.java:88)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:73)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:222)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:165)
+	at client.ir(client.java:41218)
+	at jy.k(jy.java:34142)
+	at cy.z(cy.java:97)
+	at client.hn(client.java:3050)
+	at client.ar(client.java:1190)
+	at bw.u(bw.java:334)
+	at bw.run(bw.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-09-11 19:39:57 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at java.base/java.util.stream.ReferencePipeline$4$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:199)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.IntPipeline.anyMatch(IntPipeline.java:513)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.processXpDrop(XpDropPlugin.java:117)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.onScriptPreFired(XpDropPlugin.java:88)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:73)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:222)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:165)
+	at client.ir(client.java:41218)
+	at jy.k(jy.java:34142)
+	at cy.z(cy.java:97)
+	at client.hn(client.java:3050)
+	at client.ar(client.java:1190)
+	at bw.u(bw.java:334)
+	at bw.run(bw.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-09-11 19:41:44 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at java.base/java.util.stream.ReferencePipeline$4$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:199)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.IntPipeline.anyMatch(IntPipeline.java:513)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.processXpDrop(XpDropPlugin.java:117)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.onScriptPreFired(XpDropPlugin.java:88)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:73)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:222)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:165)
+	at client.ir(client.java:41218)
+	at jy.k(jy.java:34142)
+	at cy.z(cy.java:97)
+	at client.hn(client.java:3050)
+	at client.ar(client.java:1190)
+	at bw.u(bw.java:334)
+	at bw.run(bw.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-09-11 19:42:27 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at java.base/java.util.stream.ReferencePipeline$4$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:199)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.IntPipeline.anyMatch(IntPipeline.java:513)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.processXpDrop(XpDropPlugin.java:117)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.onScriptPreFired(XpDropPlugin.java:88)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:73)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:222)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:165)
+	at client.ir(client.java:41218)
+	at jy.k(jy.java:34142)
+	at cy.z(cy.java:97)
+	at client.hn(client.java:3050)
+	at client.ar(client.java:1190)
+	at bw.u(bw.java:334)
+	at bw.run(bw.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-09-11 19:46:10 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at java.base/java.util.stream.ReferencePipeline$4$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:199)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.IntPipeline.anyMatch(IntPipeline.java:513)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.processXpDrop(XpDropPlugin.java:117)
+	at net.runelite.client.plugins.experiencedrop.XpDropPlugin.onScriptPreFired(XpDropPlugin.java:88)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:73)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:222)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:165)
+	at client.ir(client.java:41218)
+	at jy.k(jy.java:34142)
+	at cy.z(cy.java:97)
+	at client.hn(client.java:3050)
+	at client.ar(client.java:1190)
+	at bw.u(bw.java:334)
+	at bw.run(bw.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:832)

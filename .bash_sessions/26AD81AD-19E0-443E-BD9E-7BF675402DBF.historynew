@@ -1,0 +1,5 @@
+ngrok http 4567
+cd Desktop/important/programming/Friday
+git add --all
+git commit -m "Added Reminder Texts during Training Sessions"
+git push

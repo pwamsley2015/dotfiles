@@ -1,0 +1,1 @@
+{"Display an asterisk (*) if the potion will be wasted on a stat":{"type":"toggle","value":false},"Show whilst bank is open":{"type":"toggle","value":false},"enabled":{"type":"hidden","value":"true"}}

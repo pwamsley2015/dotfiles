@@ -1,0 +1,9 @@
+echo $PATH
+killall ngrok
+killall ngrok
+killall ngrok
+killall ngrok
+killall ngrok
+killall ngrok
+curl -XPOST https://api.twilio.com/2010-04-01/Accounts/AC1fc4aac722550750009636e77e137196/IncomingPhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json     --data-urlencode "SmsUrl=https://94db57aa.ngrok.io/receive-sms" \
+clear

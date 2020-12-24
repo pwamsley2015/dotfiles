@@ -1,0 +1,114 @@
+0 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+1 info using npm@7.0.8
+2 info using node@v15.1.0
+3 timing config:load:defaults Completed in 1ms
+4 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+5 timing config:load:builtin Completed in 1ms
+6 timing config:load:cli Completed in 1ms
+7 timing config:load:env Completed in 0ms
+8 timing config:load:file:/Users/pwamsley/Desktop/important/programming/full_moon_js/TVapp/.npmrc Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/Users/pwamsley/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:cafile Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setUserAgent Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 6ms
+19 verbose npm-session d2ca2ce0d397ba68
+20 timing npm:load Completed in 13ms
+21 timing arborist:ctor Completed in 1ms
+22 timing idealTree:init Completed in 573ms
+23 timing idealTree:userRequests Completed in 4ms
+24 silly idealTree buildDeps
+25 silly fetch manifest assert@^1.1.1
+26 timing arborist:ctor Completed in 0ms
+27 http fetch GET 304 https://registry.npmjs.org/assert 554ms (from cache)
+28 silly fetch manifest browserify-zlib@~0.1.4
+29 http fetch GET 304 https://registry.npmjs.org/browserify-zlib 45ms (from cache)
+30 silly fetch manifest console-browserify@^1.1.0
+31 http fetch GET 304 https://registry.npmjs.org/console-browserify 58ms (from cache)
+32 silly fetch manifest constants-browserify@^1.0.0
+33 http fetch GET 304 https://registry.npmjs.org/constants-browserify 39ms (from cache)
+34 silly fetch manifest dns.js@^1.0.1
+35 http fetch GET 304 https://registry.npmjs.org/dns.js 39ms (from cache)
+36 silly fetch manifest domain-browser@^1.1.1
+37 http fetch GET 304 https://registry.npmjs.org/domain-browser 44ms (from cache)
+38 silly fetch manifest events@^1.0.0
+39 http fetch GET 304 https://registry.npmjs.org/events 40ms (from cache)
+40 silly fetch manifest @tradle/react-native-http@^2.0.0
+41 http fetch GET 304 https://registry.npmjs.org/@tradle%2freact-native-http 74ms (from cache)
+42 silly fetch manifest https-browserify@~0.0.0
+43 http fetch GET 304 https://registry.npmjs.org/https-browserify 41ms (from cache)
+44 silly fetch manifest react-native-os@^1.0.1
+45 http fetch GET 304 https://registry.npmjs.org/react-native-os 46ms (from cache)
+46 silly fetch manifest path-browserify@0.0.0
+47 http fetch GET 304 https://registry.npmjs.org/path-browserify 46ms (from cache)
+48 silly fetch manifest process@^0.11.0
+49 http fetch GET 304 https://registry.npmjs.org/process 48ms (from cache)
+50 silly fetch manifest punycode@^1.2.4
+51 http fetch GET 304 https://registry.npmjs.org/punycode 47ms (from cache)
+52 silly fetch manifest querystring-es3@~0.2.0
+53 http fetch GET 304 https://registry.npmjs.org/querystring-es3 52ms (from cache)
+54 silly fetch manifest react-native-level-fs@^3.0.0
+55 http fetch GET 304 https://registry.npmjs.org/react-native-level-fs 40ms (from cache)
+56 silly fetch manifest asyncstorage-down@>=3.0.0 <5.0.0
+57 http fetch GET 304 https://registry.npmjs.org/asyncstorage-down 57ms (from cache)
+58 silly fetch manifest react-native-udp@^2.1.0
+59 http fetch GET 304 https://registry.npmjs.org/react-native-udp 61ms (from cache)
+60 silly fetch manifest stream-browserify@^1.0.0
+61 http fetch GET 304 https://registry.npmjs.org/stream-browserify 37ms (from cache)
+62 silly fetch manifest string_decoder@~0.10.25
+63 http fetch GET 200 https://registry.npmjs.org/string_decoder 3ms (from cache)
+64 silly fetch manifest timers-browserify@^1.0.1
+65 http fetch GET 304 https://registry.npmjs.org/timers-browserify 38ms (from cache)
+66 silly fetch manifest tty-browserify@0.0.0
+67 http fetch GET 304 https://registry.npmjs.org/tty-browserify 1443ms (from cache)
+68 silly fetch manifest url@~0.10.1
+69 http fetch GET 304 https://registry.npmjs.org/url 60ms (from cache)
+70 silly fetch manifest util@~0.10.3
+71 http fetch GET 304 https://registry.npmjs.org/util 42ms (from cache)
+72 silly fetch manifest react-native-tcp@^3.2.1
+73 http fetch GET 304 https://registry.npmjs.org/react-native-tcp 48ms (from cache)
+74 silly fetch manifest react-native@npm:react-native-tvos@0.63.1-3
+75 http fetch GET 304 https://registry.npmjs.org/react-native-tvos 48ms (from cache)
+76 silly fetch manifest @types/react-native@^0.63.17
+77 http fetch GET 304 https://registry.npmjs.org/@types%2freact-native 54ms (from cache)
+78 silly fetch manifest react@16.13.1
+79 http fetch GET 304 https://registry.npmjs.org/react 46ms (from cache)
+80 timing idealTree Completed in 3792ms
+81 timing command:install Completed in 3794ms
+82 verbose stack Error: unable to resolve dependency tree
+82 verbose stack     at Arborist.[failPeerConflict] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1020:25)
+82 verbose stack     at Arborist.[loadPeerSet] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1000:36)
+82 verbose stack     at async Arborist.[buildDepStep] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:761:11)
+82 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:203:7)
+82 verbose stack     at async Promise.all (index 1)
+82 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:121:5)
+82 verbose stack     at async install (/usr/local/lib/node_modules/npm/lib/install.js:38:5)
+83 verbose cwd /Users/pwamsley/Desktop/important/programming/full_moon_js/TVapp
+84 verbose Darwin 20.1.0
+85 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+86 verbose node v15.1.0
+87 verbose npm  v7.0.8
+88 error code ERESOLVE
+89 error ERESOLVE unable to resolve dependency tree
+90 error
+91 error While resolving: [1mTVapp[22m@[1m0.0.1[22m
+91 error Found: [1mreact-native[22m@[1m0.63.1-3[22m[2m[22m
+91 error [2mnode_modules/react-native[22m
+91 error   [1mreact-native[22m@"[1mnpm:react-native-tvos@0.63.1-3[22m" from the root project
+91 error
+91 error Could not resolve dependency:
+91 error [35mpeer[39m [1mreact-native[22m@"[1m>=0.40.0[22m" from [1mreact-native-tcp[22m@[1m3.3.2[22m[2m[22m
+91 error [2mnode_modules/react-native-tcp[22m
+91 error   [1mreact-native-tcp[22m@"[1m^3.2.1[22m" from the root project
+91 error
+91 error Fix the upstream dependency conflict, or retry
+91 error this command with --force, or --legacy-peer-deps
+91 error to accept an incorrect (and potentially broken) dependency resolution.
+91 error
+91 error See /Users/pwamsley/.npm/eresolve-report.txt for a full report.
+92 verbose exit 1

@@ -1,0 +1,22 @@
+00:06:06.606 WARN  com.InsertWittyName_zK OSBuddy - Failed to connect to the CDN: HTTP response code: 404
+00:06:06.707 WARN  com.InsertWittyName_zH OSBuddy - Failed to read Twitter: This is not a JSON Array.
+00:06:07.311 WARN  com.InsertWittyName_zJ OSBuddy - Failed to read from Twitch: HTTP response code: 404
+00:06:07.402 WARN  com.InsertWittyName_zK OSBuddy - Failed to read Twitter: HTTP response code: 404
+00:06:07.492 ERROR com.rsbuddy.orion.InsertWittyName_gN OSBuddy - Error with setting null
+00:06:07.737 WARN  com.InsertWittyName_eK com.InsertWittyName_eK - Failed to load current count from settings
+00:06:07.808 ERROR com.rsbuddy.orion.InsertWittyName_gN OSBuddy - Error with setting null
+00:06:14.105 ERROR com.rsbuddy.orion.rsi.InsertWittyName_aC OSBuddy - Could not find method 682642696
+00:06:14.106 ERROR com.rsbuddy.orion.rsi.InsertWittyName_aC OSBuddy - Could not find method 1562609791
+00:06:14.106 ERROR com.rsbuddy.orion.rsi.InsertWittyName_aC OSBuddy - Could not find method -1540503880
+00:06:14.106 ERROR com.rsbuddy.orion.rsi.InsertWittyName_aC OSBuddy - Could not find method 1394358676
+00:06:14.107 ERROR com.rsbuddy.orion.rsi.InsertWittyName_aC OSBuddy - Could not find method 1913412763
+00:06:14.107 ERROR com.rsbuddy.orion.rsi.InsertWittyName_aC OSBuddy - Could not find method -1008507325
+00:06:14.569 WARN  com.rsbuddy.orion.InsertWittyName_hW OSBuddy - Unable to connect to BuddyNet: null
+00:06:24.621 WARN  com.rsbuddy.orion.InsertWittyName_hW OSBuddy - Unable to connect to BuddyNet: null
+00:09:38.225 ERROR com.InsertWittyName_rW com.InsertWittyName_dF - com.rsbuddy.orion.InsertWittyName_aq: HTTP response code: 500
+00:09:49.047 ERROR com.InsertWittyName_rW com.InsertWittyName_dF - com.rsbuddy.orion.InsertWittyName_aq: HTTP response code: 500
+00:11:14.558 WARN  com.rsbuddy.orion.InsertWittyName_hW OSBuddy - Unable to connect to BuddyNet: null
+00:12:45.709 WARN  com.rsbuddy.orion.InsertWittyName_hW OSBuddy - Unable to connect to BuddyNet: null
+00:12:50.710 WARN  com.rsbuddy.orion.InsertWittyName_hW OSBuddy - Unable to connect to BuddyNet: null
+00:16:15.038 WARN  com.rsbuddy.orion.InsertWittyName_hW OSBuddy - Unable to connect to BuddyNet: null
+00:27:58.570 ERROR com.rsbuddy.orion.InsertWittyName_hK Orion-Service - Failed to submit data for Death Monitor: HTTP response code: 503

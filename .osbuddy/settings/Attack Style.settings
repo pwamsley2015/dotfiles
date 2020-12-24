@@ -1,0 +1,1 @@
+{"Only show active attack style (hold shift to toggle temporarily)":{"type":"toggle","value":false},"Turn screen red when defensive":{"type":"toggle","value":false},"Turn text background red when defensive":{"type":"toggle","value":true},"enabled":{"type":"hidden","value":"false"}}

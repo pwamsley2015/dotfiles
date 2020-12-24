@@ -1,0 +1,45 @@
+0 verbose cli [
+0 verbose cli   '/usr/local/bin/node',
+0 verbose cli   '/usr/local/lib/node_modules/npm/bin/npm-cli.js',
+0 verbose cli   'exec',
+0 verbose cli   '--',
+0 verbose cli   'react-native',
+0 verbose cli   'run-ios'
+0 verbose cli ]
+1 info using npm@7.0.8
+2 info using node@v15.1.0
+3 timing config:load:defaults Completed in 1ms
+4 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+5 timing config:load:builtin Completed in 1ms
+6 timing config:load:cli Completed in 2ms
+7 timing config:load:env Completed in 0ms
+8 timing config:load:file:/Users/pwamsley/Desktop/important/programming/full_moon_js/TestApp/.npmrc Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/Users/pwamsley/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:cafile Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setUserAgent Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 7ms
+19 verbose npm-session 8b709fad34e9ff69
+20 timing npm:load Completed in 15ms
+21 timing command:exec Completed in 17303ms
+22 verbose stack Error: command failed
+22 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/index.js:64:27)
+22 verbose stack     at ChildProcess.emit (node:events:327:20)
+22 verbose stack     at maybeClose (node:internal/child_process:1055:16)
+22 verbose stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:288:5)
+23 verbose pkgid TestApp@0.0.1
+24 verbose cwd /Users/pwamsley/Desktop/important/programming/full_moon_js/TestApp
+25 verbose Darwin 20.1.0
+26 verbose argv "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/bin/npm-cli.js" "exec" "--" "react-native" "run-ios"
+27 verbose node v15.1.0
+28 verbose npm  v7.0.8
+29 error path /Users/pwamsley/Desktop/important/programming/full_moon_js/TestApp
+30 error command failed
+31 error signal SIGINT
+32 error command sh -c react-native run-ios
+33 verbose exit 1

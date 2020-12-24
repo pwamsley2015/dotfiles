@@ -1,0 +1,5 @@
+cd Desktop
+touch test.csv
+cd important/programming/Friday
+git branch
+killall ngrok

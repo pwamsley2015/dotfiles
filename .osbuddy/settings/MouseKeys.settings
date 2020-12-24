@@ -1,0 +1,1 @@
+{"Custom Distance":{"type":"text-field","value":""},"Distance":{"type":"combo-box","value":"Custom"},"Remap NUMPAD_0 to Shift":{"type":"toggle","value":false},"Show Status Overlay":{"type":"toggle","value":true},"enabled":{"type":"hidden","value":"false"}}

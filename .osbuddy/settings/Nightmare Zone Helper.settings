@@ -1,0 +1,1 @@
+{"Display absorption in system tray":{"type":"toggle","value":false},"Display gp/pt in reward shop":{"type":"toggle","value":false},"Replace Jagex\u0027s NMZ interfaces":{"type":"toggle","value":true},"Show notification when absorption points drop below: (0 for disabled)":{"type":"text-field","value":"0"},"enabled":{"type":"hidden","value":"false"}}

@@ -8,11 +8,15 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+JAVA_HOME=/usr/
+export JAVA_HOME;
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/pwamsley/.oh-my-zsh"
 
-alias cdf="cd ~/Desktop/important/programming/Friday"
+alias cdf="cd ~/Desktop/important/programming/full_moon_js/TVApp"
 alias speedtest="speedtest-cli"
+alias appletvgo="npx react-native run-ios  --simulator \"Apple TV\" --scheme \"TVapp-tvOS\""
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -108,5 +112,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+function fl() {
+	python scripts/WeightLogScript.py FridayFiles/startup.Friday $1
+}
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/bitcomplete bit
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

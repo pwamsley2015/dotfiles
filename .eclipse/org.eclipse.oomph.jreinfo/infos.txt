@@ -1,0 +1,1 @@
+/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home:14:0:2:64:true:1594251855000

@@ -1,0 +1,1 @@
+{"Animation tweening":{"type":"toggle","value":true},"Disable anti-aliasing":{"type":"toggle","value":false},"Disable skybox image":{"type":"toggle","value":false},"Sky colour":{"type":"color","value":255},"enabled":{"type":"hidden","value":"true"},"running":{"type":"hidden","value":"false"}}

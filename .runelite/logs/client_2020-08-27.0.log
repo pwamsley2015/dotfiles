@@ -1,0 +1,64 @@
+2020-08-27 20:22:08 [main] INFO  net.runelite.client.RuneLite - RuneLite 1.6.25 (launcher version 2.1.3) starting up, args: none
+2020-08-27 20:22:09 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2020-08-27 20:22:09 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2020-08-27 20:22:10 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 704463443.239
+2020-08-27 20:22:10 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2020-08-27 20:22:10 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2020-08-27 20:22:11 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2020-08-27 20:22:13 [main] INFO  net.runelite.client.RuneLite - Client initialization took 4960ms. Uptime: 6157ms
+2020-08-27 20:22:13 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,61,162,387x267,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,387x267,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@631a5558,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2020-08-27 21:09:38 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.chatcommands.ChatCommandsPlugin.onGameTick(ChatCommandsPlugin.java:477)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:73)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:222)
+	at net.runelite.client.callback.Hooks.clientMainLoop(Hooks.java:183)
+	at client.vy(client.java:42045)
+	at client.aq(client.java)
+	at bw.bq(bw.java:360)
+	at bw.run(bw.java:314)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-08-27 21:26:11 [pool-2-thread-1] WARN  n.r.c.util.RunnableExceptionLogger - Uncaught exception in runnable net.runelite.client.chat.ChatCommandManager$$Lambda$1490/0x000000080123a840@6d8febf8
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.slayer.SlayerPlugin.taskLookup(SlayerPlugin.java:831)
+	at net.runelite.client.chat.ChatCommandManager.lambda$onChatMessage$0(ChatCommandManager.java:122)
+	at net.runelite.client.util.RunnableExceptionLogger.run(RunnableExceptionLogger.java:41)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-08-27 21:26:31 [pool-2-thread-1] WARN  n.r.c.util.RunnableExceptionLogger - Uncaught exception in runnable net.runelite.client.chat.ChatCommandManager$$Lambda$1490/0x000000080123a840@133a8f4f
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.slayer.SlayerPlugin.taskLookup(SlayerPlugin.java:831)
+	at net.runelite.client.chat.ChatCommandManager.lambda$onChatMessage$0(ChatCommandManager.java:122)
+	at net.runelite.client.util.RunnableExceptionLogger.run(RunnableExceptionLogger.java:41)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-08-27 21:26:47 [pool-2-thread-1] WARN  n.r.c.util.RunnableExceptionLogger - Uncaught exception in runnable net.runelite.client.chat.ChatCommandManager$$Lambda$1490/0x000000080123a840@787d55ec
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.slayer.SlayerPlugin.taskLookup(SlayerPlugin.java:831)
+	at net.runelite.client.chat.ChatCommandManager.lambda$onChatMessage$0(ChatCommandManager.java:122)
+	at net.runelite.client.util.RunnableExceptionLogger.run(RunnableExceptionLogger.java:41)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-08-27 21:26:56 [pool-2-thread-1] WARN  n.r.c.util.RunnableExceptionLogger - Uncaught exception in runnable net.runelite.client.chat.ChatCommandManager$$Lambda$1490/0x000000080123a840@61e00562
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.slayer.SlayerPlugin.taskLookup(SlayerPlugin.java:831)
+	at net.runelite.client.chat.ChatCommandManager.lambda$onChatMessage$0(ChatCommandManager.java:122)
+	at net.runelite.client.util.RunnableExceptionLogger.run(RunnableExceptionLogger.java:41)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)

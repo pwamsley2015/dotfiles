@@ -1,0 +1,24 @@
+2020-12-05 12:21:01,870: ERROR	flask.app:	Could not connect to server(#1) - 'PostgreSQL 9.3'.
+Error: FATAL:  role "postgres" does not exist
+
+2020-12-05 12:21:10,798: ERROR	flask.app:	Could not connect to server(#1) - 'PostgreSQL 9.3'.
+Error: FATAL:  role "postgres" does not exist
+
+2020-12-05 12:21:16,514: ERROR	flask.app:	Could not connect to server(#1) - 'PostgreSQL 9.3'.
+Error: FATAL:  role "postgres" does not exist
+
+2020-12-05 12:21:18,825: ERROR	flask.app:	Could not connect to server(#1) - 'PostgreSQL 9.3'.
+Error: FATAL:  role "postgres" does not exist
+
+2020-12-05 12:22:26,960: ERROR	flask.app:	Could not connect to server(#1) - 'PostgreSQL 9.3'.
+Error: FATAL:  role "postgres" does not exist
+
+2020-12-05 12:22:30,776: ERROR	flask.app:	Could not connect to server(#1) - 'PostgreSQL 9.3'.
+Error: FATAL:  role "postgres" does not exist
+
+2020-12-05 12:33:06,469: ERROR	flask.app:	Could not connect to server(#1) - 'PostgreSQL 9.3'.
+Error: FATAL:  role "postgres" does not exist
+
+2020-12-05 12:33:08,653: ERROR	flask.app:	Could not connect to server(#1) - 'PostgreSQL 9.3'.
+Error: FATAL:  role "postgres" does not exist
+

@@ -1,0 +1,1 @@
+curl -XPOST https://api.twilio.com/2010-04-01/Accounts/AC1fc4aac722550750009636e77e137196/IncomingPhoneNumbers/PNa8484668027887e467573b6253d7916e.json     --data-urlencode "SmsUrl=https://94db57aa.ngrok.io/receive-sms"     -u 'AC1fc4aac722550750009636e77e137196:44abe022e6a439c46db0a4ccf17729cf'

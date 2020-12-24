@@ -1,0 +1,51 @@
+2019-07-25 13:06:47 [main] INFO  net.runelite.client.rs.ClientLoader - client-patch 259011122.206
+2019-07-25 13:06:47 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-07-25 13:06:47 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-07-25 13:06:51 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@4fe399c9,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-07-25 13:06:51 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-07-25 13:06:53 [main] INFO  net.runelite.client.RuneLite - Client initialization took 11120ms. Uptime: 11677ms
+2019-07-25 21:37:11 [main] INFO  net.runelite.client.rs.ClientLoader - client-patch 259011122.206
+2019-07-25 21:37:11 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-07-25 21:37:12 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-07-25 21:37:15 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@1e5e5dcb,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-07-25 21:37:15 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-07-25 21:37:17 [main] INFO  net.runelite.client.RuneLite - Client initialization took 10092ms. Uptime: 10510ms
+2019-07-25 21:44:54 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.slayer.SlayerPlugin.onExperienceChanged(SlayerPlugin.java:538)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:72)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:218)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:136)
+	at client.af(client.java:39314)
+	at client.ny(client.java:6021)
+	at client.ef(client.java:2412)
+	at client.ad(client.java:921)
+	at bz.vb(bz.java:364)
+	at bz.run(bz.java:343)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-25 21:45:08 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.slayer.SlayerPlugin.onExperienceChanged(SlayerPlugin.java:538)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:72)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:218)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:136)
+	at client.af(client.java:39314)
+	at client.ny(client.java:6021)
+	at client.ef(client.java:2412)
+	at client.ad(client.java:921)
+	at bz.vb(bz.java:364)
+	at bz.run(bz.java:343)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-25 21:45:25 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.slayer.SlayerPlugin.onExperienceChanged(SlayerPlugin.java:538)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:72)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:218)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:136)
+	at client.af(client.java:39314)
+	at client.ny(client.java:6021)
+	at client.ef(client.java:2412)
+	at client.ad(client.java:921)
+	at bz.vb(bz.java:364)
+	at bz.run(bz.java:343)
+	at java.lang.Thread.run(Thread.java:748)

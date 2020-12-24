@@ -1,0 +1,38 @@
+2019-07-21 21:53:51 [main] INFO  net.runelite.client.rs.ClientLoader - client-patch 254380560.199
+2019-07-21 21:53:51 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-07-21 21:53:51 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-07-21 21:53:55 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@792a82db,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-07-21 21:53:55 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-07-21 21:53:57 [main] INFO  net.runelite.client.RuneLite - Client initialization took 11701ms. Uptime: 12119ms
+2019-07-21 22:05:11 [pool-4-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error pinging
+java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.tcpPing(Ping.java:98)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:55)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingWorlds(WorldHopperPlugin.java:769)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-21 22:23:25 [Client] WARN  n.runelite.client.eventbus.EventBus - Uncaught exception in event subscriber
+java.lang.NullPointerException: null
+	at net.runelite.client.plugins.slayer.SlayerPlugin.onExperienceChanged(SlayerPlugin.java:538)
+	at net.runelite.client.eventbus.EventBus$Subscriber.invoke(EventBus.java:72)
+	at net.runelite.client.eventbus.EventBus.post(EventBus.java:218)
+	at net.runelite.client.callback.Hooks.post(Hooks.java:136)
+	at client.af(client.java:39314)
+	at client.ny(client.java:6021)
+	at client.ef(client.java:2412)
+	at client.ad(client.java:921)
+	at bz.vb(bz.java:364)
+	at bz.run(bz.java:343)
+	at java.lang.Thread.run(Thread.java:748)

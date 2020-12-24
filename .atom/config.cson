@@ -1,0 +1,20 @@
+'editor':
+  'fontSize': 16
+  'tabLength': 4
+  'softWrapAtPreferredLineLength': true
+  'showInvisibles': true
+  'showIndentGuide': true
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'atom-dark-syntax'
+  ]
+'exception-reporting':
+  'userId': '2d67484a-f268-d008-dc2d-e52504a7faf5'
+'release-notes':
+  'viewedVersion': '0.94.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '8b7ae24227d327796ed04d73a7be9be235f6f738'
+'autocomplete': {}

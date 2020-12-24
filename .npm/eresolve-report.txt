@@ -1,0 +1,72 @@
+# npm resolution error report
+
+2020-11-14T03:14:29.179Z
+
+While resolving: TVapp@0.0.1
+Found: react-native@0.63.1-3
+node_modules/react-native
+  react-native@"npm:react-native-tvos@latest" from the root project
+
+Could not resolve dependency:
+peer react-native@">=0.40.0" from react-native-tcp@3.3.2
+node_modules/react-native-tcp
+  react-native-tcp@"^3.2.1" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "current": {
+    "name": "react-native",
+    "version": "0.63.1-3",
+    "whileInstalling": {
+      "name": "TVapp",
+      "version": "0.0.1",
+      "path": "/Users/pwamsley/Desktop/important/programming/full_moon_js/TVapp"
+    },
+    "location": "node_modules/react-native",
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "react-native",
+        "spec": "npm:react-native-tvos@latest",
+        "from": {
+          "location": "/Users/pwamsley/Desktop/important/programming/full_moon_js/TVapp"
+        }
+      }
+    ]
+  },
+  "edge": {
+    "type": "peer",
+    "name": "react-native",
+    "spec": ">=0.40.0",
+    "error": "INVALID",
+    "from": {
+      "name": "react-native-tcp",
+      "version": "3.3.2",
+      "whileInstalling": {
+        "name": "TVapp",
+        "version": "0.0.1",
+        "path": "/Users/pwamsley/Desktop/important/programming/full_moon_js/TVapp"
+      },
+      "location": "node_modules/react-native-tcp",
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "react-native-tcp",
+          "spec": "^3.2.1",
+          "from": {
+            "location": "/Users/pwamsley/Desktop/important/programming/full_moon_js/TVapp"
+          }
+        }
+      ]
+    }
+  },
+  "peerConflict": null,
+  "strictPeerDeps": false,
+  "force": false
+}

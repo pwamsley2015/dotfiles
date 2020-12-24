@@ -1,0 +1,1 @@
+{"Draw minimap when in tunnels":{"type":"toggle","value":true},"Label each brothers\u0027 crypts on minimap":{"type":"toggle","value":true},"Replace Jagex\u0027s Barrows overlay":{"type":"toggle","value":true},"enabled":{"type":"hidden","value":"false"}}

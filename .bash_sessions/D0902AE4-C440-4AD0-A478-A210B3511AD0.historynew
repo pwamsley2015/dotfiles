@@ -1,0 +1,14 @@
+ngrok http 4567
+ngrok http 4567
+cd important
+cd Desktop/
+cd ~
+ngrok http 4567
+killall ngrok
+killall ngrok
+ngrok http 4567
+ngrok http 4567
+ngrok http 4567
+ngrok
+ngrok help
+echo $PATH

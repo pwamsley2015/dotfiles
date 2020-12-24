@@ -1,0 +1,103 @@
+2019-03-02 03:58:08 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-03-02 03:58:10 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-03-02 03:58:11 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@308c4a35,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-03-02 03:58:11 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-03-02 03:58:13 [main] INFO  net.runelite.client.RuneLite - Client initialization took 7282ms. Uptime: 7777ms
+2019-03-02 17:30:17 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-03-02 17:30:19 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-03-02 17:30:21 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@1d3d1cff,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-03-02 17:30:21 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-03-02 17:30:22 [main] INFO  net.runelite.client.RuneLite - Client initialization took 7549ms. Uptime: 8039ms
+2019-03-02 19:03:06 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-03-02 19:03:07 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-03-02 19:03:09 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@5ffe86c2,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-03-02 19:03:09 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-03-02 19:03:11 [main] INFO  net.runelite.client.RuneLite - Client initialization took 7540ms. Uptime: 8031ms
+2019-03-02 19:03:28 [OkHttp https://api.runelite.net/...] WARN  n.runelite.http.api.xtea.XteaClient - unable to submit xtea keys
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:75)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at net.runelite.http.api.RuneLiteAPI$1.intercept(RuneLiteAPI.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:135)
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at okio.Okio$2.read(Okio.java:138)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236)
+	... 26 common frames omitted
+2019-03-02 19:03:59 [OkHttp https://api.runelite.net/...] WARN  n.runelite.http.api.xtea.XteaClient - unable to submit xtea keys
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:75)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at net.runelite.http.api.RuneLiteAPI$1.intercept(RuneLiteAPI.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:135)
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at okio.Okio$2.read(Okio.java:138)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236)
+	... 26 common frames omitted

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config version="10.0.1">
+  <licenseKey name="Evaluation" company="" key="E-J10-AUTO#1412849-2017.05.06-10-3u957uzy7drfnc#bba9" />
+  <generalSettings setupHasRun="true" lookAndFeel="3" iconMode="largeWithText" externalSourceViewerCommand="" rememberWindowSizes="true" defaultFilterTemplateId="" defaultProfilingSettingsTemplateId="" defaultTriggerSetId="" defaultCustomProbeSetId="" storeHeapDumpAnalysis="true">
+    <jvmConfigurations defaultId="100">
+      <jvmConfiguration name="Oracle 1.8.0_121" id="100" javaHome="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home" version="1.8.0_121" vendor="Oracle Corporation" arch="x86_64" modeId="" isJRE="false" />
+    </jvmConfigurations>
+    <javaEditorSettings codeCompletionAutoImport="true" codeCompletionAutoPopup="true" codeCompletionAutoPopupDelay="1000" codeCompletionLookupHeight="10" problemsLevel="all" editorIconMode="largeWithText" defaultJdkMode="runtimeJre" defaultJdkName="" defaultJdkId="">
+      <jdks />
+    </javaEditorSettings>
+    <integrations>
+      <netbeansConfig targetDir="" />
+      <eclipseConfig targetDir="" />
+      <ideaConfig targetDir="" />
+      <jdeveloperConfig targetDir="" />
+    </integrations>
+    <messageFlags quickstart="false" sessionOpenWarning="true" applyProfilingSettingsQuestion="true" emptyClassPathWarning="true" parsePathWarning="true" vmExitWarning="true" vmCrashWarning="true" configSyncWarning="true" configSyncMessage="true" callTracerWarning="true" recordedObjectsComparisonWarning="true" heapwalkerObjectsComparisonWarning="true" closeSession="true" exitApplication="true" closeSnapshot="true" closeComparisons="true" hideNode="true" hprofComparison="true" nodesOfInterestMessage="true" jpanalyzeInfo="true" selectionStepsExport="true" quickAttachSaveSession="true" callTracerAttachWarning="true" toStringMessage="true" addFilterMessage="true" addIgnoredMessage="true" cpuAllocWarning="true" snapshotTypeWarning="true" />
+    <directoryPresets export="" snapshots="" jws="" settingsExport="" />
+    <exportOptions lastExportFormatClass="html" csvSeparator="," openFile="true" exportEntireTree="false" exportAllCallTraces="false" exportHeapWalkerSelectionSteps="false" exportAllThreadDumps="false" />
+    <filterTemplates />
+    <triggerSets />
+    <customProbeSets />
+    <recordingProfiles>
+      <recordingProfile name="CPU recording" id="10">
+        <actionKey id="cpu" />
+      </recordingProfile>
+    </recordingProfiles>
+  </generalSettings>
+  <comparisonSettings>
+    <viewSettings>
+      <telemetry scaleToFit="true" verticalGridlines="3" snapshotSymbol="3" />
+      <objectsComparisonView primaryMeasure="1" sizeScale="1" differenceDisplayType="1" showZeroValues="false" />
+      <allocationHotspots alwaysShowSignature="false" differenceDisplayType="1" showZeroValues="false" scale="1" />
+      <cpuHotSpots alwaysShowSignature="false" differenceDisplayType="1" showZeroValues="false" scale="1" />
+      <probeHotSpots alwaysShowSignature="false" differenceDisplayType="1" showZeroValues="false" scale="1" />
+      <calltree showCommonOnly="false" differenceDisplayType="1" showZeroValues="false" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+      <allocationCalltree showCommonOnly="false" differenceDisplayType="1" showZeroValues="false" cumulate="true" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+    </viewSettings>
+    <viewFilters />
+  </comparisonSettings>
+  <templates>
+    <template id="50" name="Instrumentation, all features supported" instrumentationType="1" samplingNoFilters="false" lineNumbers="false" samplingFrequency="5" timeType="1" disableCPUProfiling="false" recordArrayAlloc="true" instrumentNativeMethods="true" enableTriggersOnStartup="true" allocTreeRecordingType="1" disableMonitorContentions="false" componentDetection="true" chronoHeap="false" autoUpdatePeriodLong="5" autoUpdatePeriodShort="2" allUrls="false" payloadCap="50" perThreadEventCap="8192" descriptorCap="8192" hotspotPayloadCap="16384" retainStackForHotspotConsolidation="false" showSystemThreads="false" utilConcurrentHandling="true" libraryDebugParameters="" splittingCap="128" exceptionalCap="5" exceptionalTimeType="4" autoTuneInstrumentation="true" autoTuneMaxAverage="100" autoTuneMinPerMille="10" samplingPayloadCallStacks="true" threadResolvedCallSites="false" description="This is JProfiler's fully featured mode. In this setting, call stack information is accurate, but CPU overhead and distortion of measured call times may be high, depending on your filter settings. You should define inclusive filters for your own packages." system="true" />
+    <template id="51" name="Sampling for CPU profiling, some features not supported" instrumentationType="3" samplingNoFilters="false" lineNumbers="false" samplingFrequency="5" timeType="1" disableCPUProfiling="false" recordArrayAlloc="true" instrumentNativeMethods="true" enableTriggersOnStartup="true" allocTreeRecordingType="1" disableMonitorContentions="false" componentDetection="true" chronoHeap="false" autoUpdatePeriodLong="5" autoUpdatePeriodShort="2" allUrls="false" payloadCap="50" perThreadEventCap="8192" descriptorCap="8192" hotspotPayloadCap="16384" retainStackForHotspotConsolidation="false" showSystemThreads="false" utilConcurrentHandling="true" libraryDebugParameters="" splittingCap="128" exceptionalCap="5" exceptionalTimeType="4" autoTuneInstrumentation="true" autoTuneMaxAverage="100" autoTuneMinPerMille="10" samplingPayloadCallStacks="true" threadResolvedCallSites="false" description="This template is particularly suitable for CPU profiling and for memory profiling when accurate allocation information is not important. Sampling has a very low overhead and does not distort measured call tines. Some views, like the method statistics are no available. JEE payloads cannot be annotated in the call tree, but payload hotspots without backtraces are available." system="true" />
+  </templates>
+  <customTemplates />
+  <sessions>
+    <session id="80" name="Animated Bezier Curve Demo" instrumentationType="1" samplingNoFilters="false" lineNumbers="false" samplingFrequency="5" timeType="1" disableCPUProfiling="false" recordArrayAlloc="true" instrumentNativeMethods="true" enableTriggersOnStartup="true" allocTreeRecordingType="1" disableMonitorContentions="false" componentDetection="true" chronoHeap="false" autoUpdatePeriodLong="5" autoUpdatePeriodShort="2" allUrls="false" payloadCap="50" perThreadEventCap="8192" descriptorCap="8192" hotspotPayloadCap="16384" retainStackForHotspotConsolidation="false" showSystemThreads="false" utilConcurrentHandling="true" libraryDebugParameters="" splittingCap="128" exceptionalCap="5" exceptionalTimeType="4" autoTuneInstrumentation="true" autoTuneMaxAverage="100" autoTuneMinPerMille="10" samplingPayloadCallStacks="true" threadResolvedCallSites="false" templateId="50" askForTemplate="false" autoUpdateAllocationViews="false" jdkName="" jdkId="" jdkMode="auto" compilationMode="auto" compilationTarget="1.8" recordingProfileId="" vmExitHandling="1" vmExitHandlingTestRunner="3" type="1" remoteType="direct" hidden="false" host="127.0.0.1" port="8849" timeout="20" isExecuteStartCommand="false" startCommand="" isExecuteStopCommand="false" stopCommand="" jvmConfigurationId="100" workingDirectory="" isStartupWorkingDirectory="true" openBrowser="false" browserUrl="" vmArguments="" mainClass="bezier.BezierAnim" arguments="" consoleBufferSize="1000" nativeConsole="false" consoleSizeWidth="80" consoleSizeHeight="25" configSyncMode="1" configSyncCopyTarget="" configSyncSshTarget="" configSyncCommand="" showUnprofiledJvms="true" showProfiledJvms="true" showBusyJvms="true" appletURL="" jnlpURL="" nextScriptId="1" useSocks="false" socksHost="" socksPort="1080">
+      <filters>
+        <filter type="inclusive" name="bezier." />
+      </filters>
+      <exceptionalMethods />
+      <ignoredMethods />
+      <splitMethods />
+      <complexityMethods />
+      <triggers logTarget="stdout" logFile="" />
+      <probes>
+        <probe name="builtin.JdbcProbe" enabled="true" preparedStatementParameters="false" replaceUnpreparedLiterals="false" keepLiteralsForEvents="true" events="false" annotatePayloads="false" recordSpecial="false" />
+        <probe name="builtin.PersistenceProbe" enabled="true" hibernate3="true" hibernate4="true" eclipseLink23="true" openJpa21="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.MongoDbProbe" enabled="true" keepPrimitiveData="false" events="false" annotatePayloads="false" />
+        <probe name="builtin.CassandraProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.HbaseProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.ServletProbe" enabled="true" splittingResolution="1" urlSplitting="true" fullQuery="false" events="false" annotatePayloads="false">
+          <requestResolvers enabled="false" />
+        </probe>
+        <probe name="builtin.JndiProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.JmsProbe" enabled="true" recordSynchronous="true" recordAsynchronous="true" events="false" annotatePayloads="false">
+          <jmsResolver>
+            <script id="" compiledClassName="" lastModified="0" enabled="false">
+              <code />
+            </script>
+          </jmsResolver>
+        </probe>
+        <probe name="builtin.RmiProbe" enabled="true" split="1" recordClient="true" recordServer="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.WsProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.ClassLoaderProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.ExceptionProbe" enabled="true" recordFiltered="false" events="false" annotatePayloads="false" />
+        <probe name="builtin.SocketProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.FileProbe" enabled="true" events="false" annotatePayloads="false">
+          <fileFilter>
+            <script id="" compiledClassName="" lastModified="0" enabled="false">
+              <code />
+            </script>
+          </fileFilter>
+        </probe>
+        <probe name="builtin.ProcessProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.TrackingInterceptor" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="com.jprofiler.agent.probe.interceptor.TrackingInterceptor" enabled="true" events="false" annotatePayloads="false" />
+      </probes>
+      <customProbes />
+      <customTelemetries />
+      <viewSettings>
+        <invocationView showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <hotspotsView showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <callTracer percentageThreshold="100000" recordFiltered="false" timeDisplay="relativeToFirstTrace" showSignature="true" showClassNamesForMethods="false" />
+        <methodDistribution timeGridlines="3" scaleToFit="true" verticalGridlines="3" logarithmicValues="true" />
+        <threadsHistoryView timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" monitorToolTips="true" showGroupNames="true" />
+        <monitorHistory blockingThreshold="1000" waitingThreshold="100000" />
+        <monitorHistoryTelemetry timeGridlines="3" bookmarks="3" scaleToFit="false" />
+        <threadsMonitorView showRunnable="true" showWaitingOnCondition="true" showWaitingOnMonitor="true" showNetIo="true" showDead="false" />
+        <methodGraph colorInformation="1" colorScaleBase="1" showSignature="false" useOutgoingThreshold="true" outgoingThreshold="1.0" showAverageTimes="false" shortenPackages="true" />
+        <classMonitorView primaryMeasure="1" sizeScale="1" diffColumnOrder="2" differenceDisplayType="1" />
+        <allocationsMonitor cumulate="true" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <allocationHotspots diffColumnOrder="2" differenceDisplayType="1" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <heapWalkerView showViewHelperDialog="true" selectionStepsVisible="true" />
+        <heapWalkerClassesView primaryMeasure="1" sizeScale="1" />
+        <heapWalkerAllocationsView cumulate="true" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <heapWalkerBiggestObjectsView sizeScale="1" showObjectIds="true" showRetainedSizeBar="true" percentageBase="topLevel" />
+        <heapWalkerReferencesView sizeScale="1" showObjectIds="true" showObjectIdsInGraph="false" shortenPackagesInGraph="true" showDeclaringClassesInTree="true" showNullOutgoingReferences="false" instanceLimitGraph="100" instanceLimitTree="100" compactContainers="true" />
+        <heapWalkerChronoView timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" />
+        <classTracker timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" objectScopeSelection="all" livenessTypeSelection="Live objects">
+          <selections />
+        </classTracker>
+        <probeTracker timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+        <probeTelemetries timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+        <probeTimeLine timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" />
+        <probeHotspots showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <overviewTelemetry timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" />
+        <vmTelemetries timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+      </viewSettings>
+      <viewFilters />
+      <compiledScripts />
+      <ssh tunnelMode="direct" hostName="127.0.0.1" port="8849" verifyHosts="false" knownHosts="" sshMode="attach" />
+      <classPath>
+        <classPathEntry path="demo/bezier/classes" />
+      </classPath>
+      <sourcePath>
+        <sourcePathEntry path="demo/bezier/src" />
+      </sourcePath>
+      <libraryPath />
+    </session>
+    <session id="81" name="JDBC demo" instrumentationType="1" samplingNoFilters="false" lineNumbers="false" samplingFrequency="5" timeType="1" disableCPUProfiling="false" recordArrayAlloc="true" instrumentNativeMethods="true" enableTriggersOnStartup="true" allocTreeRecordingType="1" disableMonitorContentions="false" componentDetection="true" chronoHeap="false" autoUpdatePeriodLong="5" autoUpdatePeriodShort="2" allUrls="false" payloadCap="50" perThreadEventCap="8192" descriptorCap="8192" hotspotPayloadCap="16384" retainStackForHotspotConsolidation="false" showSystemThreads="false" utilConcurrentHandling="true" libraryDebugParameters="" splittingCap="128" exceptionalCap="5" exceptionalTimeType="4" autoTuneInstrumentation="false" autoTuneMaxAverage="100" autoTuneMinPerMille="10" samplingPayloadCallStacks="true" threadResolvedCallSites="false" templateId="" askForTemplate="false" autoUpdateAllocationViews="false" jdkName="" jdkId="" jdkMode="auto" compilationMode="auto" compilationTarget="1.8" recordingProfileId="" vmExitHandling="1" vmExitHandlingTestRunner="3" type="1" remoteType="direct" hidden="false" host="127.0.0.1" port="8849" timeout="20" isExecuteStartCommand="false" startCommand="" isExecuteStopCommand="false" stopCommand="" jvmConfigurationId="100" workingDirectory="" isStartupWorkingDirectory="true" openBrowser="false" browserUrl="" vmArguments="" mainClass="jdbc.JdbcDemo" arguments="" consoleBufferSize="1000" nativeConsole="false" consoleSizeWidth="80" consoleSizeHeight="25" configSyncMode="1" configSyncCopyTarget="" configSyncSshTarget="" configSyncCommand="" showUnprofiledJvms="true" showProfiledJvms="true" showBusyJvms="true" appletURL="" jnlpURL="" nextScriptId="1" useSocks="false" socksHost="" socksPort="1080">
+      <filters>
+        <filter type="inclusive" name="jdbc." />
+      </filters>
+      <exceptionalMethods />
+      <ignoredMethods />
+      <splitMethods />
+      <complexityMethods />
+      <triggers logTarget="stdout" logFile="" />
+      <probes>
+        <probe name="builtin.JdbcProbe" enabled="true" preparedStatementParameters="false" replaceUnpreparedLiterals="false" keepLiteralsForEvents="true" events="true" annotatePayloads="false" recordSpecial="false" />
+        <probe name="builtin.PersistenceProbe" enabled="true" hibernate3="true" hibernate4="true" eclipseLink23="true" openJpa21="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.MongoDbProbe" enabled="true" keepPrimitiveData="false" events="false" annotatePayloads="false" />
+        <probe name="builtin.CassandraProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.HbaseProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.ServletProbe" enabled="true" splittingResolution="1" urlSplitting="true" fullQuery="false" events="false" annotatePayloads="false">
+          <requestResolvers enabled="false" />
+        </probe>
+        <probe name="builtin.JndiProbe" enabled="true" events="true" annotatePayloads="false" />
+        <probe name="builtin.JmsProbe" enabled="true" recordSynchronous="true" recordAsynchronous="true" events="false" annotatePayloads="false">
+          <jmsResolver>
+            <script id="" compiledClassName="" lastModified="0" enabled="false">
+              <code />
+            </script>
+          </jmsResolver>
+        </probe>
+        <probe name="builtin.RmiProbe" enabled="true" split="1" recordClient="true" recordServer="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.WsProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.ClassLoaderProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.ExceptionProbe" enabled="true" recordFiltered="false" events="false" annotatePayloads="false" />
+        <probe name="builtin.SocketProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.FileProbe" enabled="true" events="false" annotatePayloads="false">
+          <fileFilter>
+            <script id="" compiledClassName="" lastModified="0" enabled="false">
+              <code />
+            </script>
+          </fileFilter>
+        </probe>
+        <probe name="builtin.ProcessProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.TrackingInterceptor" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="com.jprofiler.agent.probe.interceptor.TrackingInterceptor" enabled="true" events="false" annotatePayloads="false" />
+      </probes>
+      <customProbes />
+      <customTelemetries />
+      <viewSettings>
+        <invocationView showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <hotspotsView showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <callTracer percentageThreshold="100000" recordFiltered="false" timeDisplay="relativeToFirstTrace" showSignature="true" showClassNamesForMethods="false" />
+        <methodDistribution timeGridlines="3" scaleToFit="true" verticalGridlines="3" logarithmicValues="true" />
+        <threadsHistoryView timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" monitorToolTips="true" showGroupNames="true" />
+        <monitorHistory blockingThreshold="1000" waitingThreshold="100000" />
+        <monitorHistoryTelemetry timeGridlines="3" bookmarks="3" scaleToFit="false" />
+        <threadsMonitorView showRunnable="true" showWaitingOnCondition="true" showWaitingOnMonitor="true" showNetIo="true" showDead="false" />
+        <methodGraph colorInformation="1" colorScaleBase="1" showSignature="false" useOutgoingThreshold="true" outgoingThreshold="1.0" showAverageTimes="false" shortenPackages="true" />
+        <classMonitorView primaryMeasure="1" sizeScale="1" diffColumnOrder="2" differenceDisplayType="1" />
+        <allocationsMonitor cumulate="true" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <allocationHotspots diffColumnOrder="2" differenceDisplayType="1" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <heapWalkerView showViewHelperDialog="true" selectionStepsVisible="true" />
+        <heapWalkerClassesView primaryMeasure="1" sizeScale="1" />
+        <heapWalkerAllocationsView cumulate="true" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <heapWalkerBiggestObjectsView sizeScale="1" showObjectIds="true" showRetainedSizeBar="true" percentageBase="topLevel" />
+        <heapWalkerReferencesView sizeScale="1" showObjectIds="true" showObjectIdsInGraph="false" shortenPackagesInGraph="true" showDeclaringClassesInTree="true" showNullOutgoingReferences="false" instanceLimitGraph="100" instanceLimitTree="100" compactContainers="true" />
+        <heapWalkerChronoView timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" />
+        <classTracker timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" objectScopeSelection="all" livenessTypeSelection="Live objects">
+          <selections />
+        </classTracker>
+        <probeTracker timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+        <probeTelemetries timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+        <probeTimeLine timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" />
+        <probeHotspots showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <overviewTelemetry timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" />
+        <vmTelemetries timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+      </viewSettings>
+      <viewFilters />
+      <compiledScripts />
+      <ssh tunnelMode="direct" hostName="127.0.0.1" port="8849" verifyHosts="false" knownHosts="" sshMode="attach" />
+      <classPath>
+        <classPathEntry path="demo/jdbc/classes" />
+        <classPathEntry path="demo/jdbc/lib" />
+      </classPath>
+      <sourcePath />
+      <libraryPath />
+    </session>
+    <session id="82" name="Demo server" instrumentationType="1" samplingNoFilters="false" lineNumbers="false" samplingFrequency="5" timeType="1" disableCPUProfiling="false" recordArrayAlloc="true" instrumentNativeMethods="true" enableTriggersOnStartup="true" allocTreeRecordingType="1" disableMonitorContentions="false" componentDetection="true" chronoHeap="false" autoUpdatePeriodLong="5" autoUpdatePeriodShort="2" allUrls="false" payloadCap="50" perThreadEventCap="8192" descriptorCap="8192" hotspotPayloadCap="16384" retainStackForHotspotConsolidation="false" showSystemThreads="false" utilConcurrentHandling="true" libraryDebugParameters="" splittingCap="128" exceptionalCap="5" exceptionalTimeType="4" autoTuneInstrumentation="true" autoTuneMaxAverage="100" autoTuneMinPerMille="10" samplingPayloadCallStacks="true" threadResolvedCallSites="false" templateId="50" askForTemplate="false" autoUpdateAllocationViews="false" jdkName="" jdkId="" jdkMode="auto" compilationMode="auto" compilationTarget="1.6" recordingProfileId="" vmExitHandling="1" vmExitHandlingTestRunner="3" type="1" remoteType="direct" hidden="false" host="127.0.0.1" port="8849" timeout="20" isExecuteStartCommand="false" startCommand="" isExecuteStopCommand="false" stopCommand="" jvmConfigurationId="100" workingDirectory="" isStartupWorkingDirectory="true" openBrowser="false" browserUrl="" vmArguments="" mainClass="com.ejt.demo.server.gui.GuiDemoServer" arguments="" consoleBufferSize="1000" nativeConsole="false" consoleSizeWidth="80" consoleSizeHeight="25" configSyncMode="1" configSyncCopyTarget="" configSyncSshTarget="" configSyncCommand="" showUnprofiledJvms="true" showProfiledJvms="true" showBusyJvms="true" appletURL="" jnlpURL="" nextScriptId="5" moduleOptions="--add-modules java.se.ee" useSocks="false" socksHost="" socksPort="1080">
+      <filters>
+        <filter type="inclusive" name="com.ejt.demo.server.handlers." />
+      </filters>
+      <exceptionalMethods />
+      <ignoredMethods />
+      <splitMethods />
+      <complexityMethods />
+      <triggers logTarget="stdout" logFile="" />
+      <probes>
+        <probe name="builtin.JdbcProbe" enabled="true" preparedStatementParameters="true" replaceUnpreparedLiterals="false" keepLiteralsForEvents="true" events="true" annotatePayloads="false" recordSpecial="false" />
+        <probe name="builtin.PersistenceProbe" enabled="true" hibernate3="true" hibernate4="true" eclipseLink23="true" openJpa21="true" events="true" annotatePayloads="false" />
+        <probe name="builtin.MongoDbProbe" enabled="true" keepPrimitiveData="false" events="false" annotatePayloads="false" />
+        <probe name="builtin.CassandraProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.HbaseProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.ServletProbe" enabled="true" splittingResolution="2" urlSplitting="true" fullQuery="true" events="true" annotatePayloads="false">
+          <requestResolvers enabled="true">
+            <entry>
+              <script id="3" compiledClassName="__JProfiler_ProbeScript_3" lastModified="1425460905661" enabled="false">
+                <code>servletRequest.getRequestURI()</code>
+              </script>
+            </entry>
+            <entry>
+              <script id="4" compiledClassName="__JProfiler_ProbeScript_4" lastModified="1425466124080" enabled="false">
+                <code>import javax.servlet.http.HttpSession;
+
+HttpSession session = servletRequest.getSession(false);
+if (session != null) {
+    Object user = session.getAttribute("user");
+    if (user != null) {
+        return "User \"" + user.toString() + "\"";
+    } else {
+        return "Unauthenticated";
+    }
+} else {
+    return null; // Do not split
+}</code>
+              </script>
+            </entry>
+          </requestResolvers>
+        </probe>
+        <probe name="builtin.JndiProbe" enabled="true" events="true" annotatePayloads="false" />
+        <probe name="builtin.JmsProbe" enabled="true" recordSynchronous="true" recordAsynchronous="true" events="true" annotatePayloads="false">
+          <jmsResolver>
+            <script id="" compiledClassName="" lastModified="0" enabled="false">
+              <code />
+            </script>
+          </jmsResolver>
+        </probe>
+        <probe name="builtin.RmiProbe" enabled="true" split="1" recordClient="true" recordServer="true" events="true" annotatePayloads="false" />
+        <probe name="builtin.WsProbe" enabled="true" events="true" annotatePayloads="false" />
+        <probe name="builtin.ClassLoaderProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.ExceptionProbe" enabled="true" recordFiltered="false" events="false" annotatePayloads="false" />
+        <probe name="builtin.SocketProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.FileProbe" enabled="true" events="false" annotatePayloads="false">
+          <fileFilter>
+            <script id="" compiledClassName="" lastModified="0" enabled="false">
+              <code />
+            </script>
+          </fileFilter>
+        </probe>
+        <probe name="builtin.ProcessProbe" enabled="true" events="false" annotatePayloads="false" />
+        <probe name="builtin.TrackingInterceptor" enabled="true" events="false" annotatePayloads="false" />
+      </probes>
+      <customProbes />
+      <customTelemetries />
+      <viewSettings>
+        <invocationView showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <hotspotsView showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <callTracer percentageThreshold="100000" recordFiltered="false" timeDisplay="relativeToFirstTrace" showSignature="true" showClassNamesForMethods="false" />
+        <methodDistribution timeGridlines="3" scaleToFit="true" verticalGridlines="3" logarithmicValues="true" />
+        <threadsHistoryView timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" monitorToolTips="true" showGroupNames="true" />
+        <monitorHistory blockingThreshold="1000" waitingThreshold="100000" />
+        <monitorHistoryTelemetry timeGridlines="3" bookmarks="3" scaleToFit="false" />
+        <threadsMonitorView showRunnable="true" showWaitingOnCondition="true" showWaitingOnMonitor="true" showNetIo="true" showDead="false" />
+        <methodGraph colorInformation="1" colorScaleBase="1" showSignature="false" useOutgoingThreshold="true" outgoingThreshold="1.0" showAverageTimes="false" shortenPackages="true" />
+        <classMonitorView primaryMeasure="1" sizeScale="1" diffColumnOrder="2" differenceDisplayType="1" />
+        <allocationsMonitor cumulate="true" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <allocationHotspots diffColumnOrder="2" differenceDisplayType="1" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <heapWalkerView showViewHelperDialog="true" selectionStepsVisible="true" />
+        <heapWalkerClassesView primaryMeasure="1" sizeScale="1" />
+        <heapWalkerAllocationsView cumulate="true" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <heapWalkerBiggestObjectsView sizeScale="1" showObjectIds="true" showRetainedSizeBar="true" percentageBase="topLevel" />
+        <heapWalkerReferencesView sizeScale="1" showObjectIds="true" showObjectIdsInGraph="false" shortenPackagesInGraph="true" showDeclaringClassesInTree="true" showNullOutgoingReferences="false" instanceLimitGraph="100" instanceLimitTree="100" compactContainers="true" />
+        <heapWalkerChronoView timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" />
+        <classTracker timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" objectScopeSelection="all" livenessTypeSelection="Live objects">
+          <selections />
+        </classTracker>
+        <probeTracker timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+        <probeTelemetries timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+        <probeTimeLine timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" />
+        <probeHotspots showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <overviewTelemetry timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" />
+        <vmTelemetries timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+      </viewSettings>
+      <viewFilters />
+      <compiledScripts />
+      <ssh tunnelMode="direct" hostName="127.0.0.1" port="8849" verifyHosts="false" knownHosts="" sshMode="attach" />
+      <classPath>
+        <classPathEntry path="demo/server/classes" />
+        <classPathEntry path="demo/server/lib" />
+      </classPath>
+      <sourcePath />
+      <libraryPath />
+    </session>
+  </sessions>
+  <mementos>
+    <remoteAttachMemento id="" name="New session" instrumentationType="3" samplingNoFilters="false" lineNumbers="false" samplingFrequency="5" timeType="1" disableCPUProfiling="false" recordArrayAlloc="true" instrumentNativeMethods="true" enableTriggersOnStartup="true" allocTreeRecordingType="1" disableMonitorContentions="false" componentDetection="true" chronoHeap="false" autoUpdatePeriodLong="5" autoUpdatePeriodShort="2" allUrls="false" payloadCap="50" perThreadEventCap="8192" descriptorCap="8192" hotspotPayloadCap="16384" retainStackForHotspotConsolidation="false" showSystemThreads="false" utilConcurrentHandling="true" libraryDebugParameters="" splittingCap="128" exceptionalCap="5" exceptionalTimeType="4" autoTuneInstrumentation="true" autoTuneMaxAverage="100" autoTuneMinPerMille="10" samplingPayloadCallStacks="true" threadResolvedCallSites="false" templateId="" askForTemplate="false" autoUpdateAllocationViews="false" jdkName="" jdkId="" jdkMode="auto" compilationMode="auto" compilationTarget="1.8" recordingProfileId="" vmExitHandling="1" vmExitHandlingTestRunner="3" type="6" remoteType="ssh" hidden="false" host="" port="0" timeout="20" isExecuteStartCommand="false" startCommand="" isExecuteStopCommand="false" stopCommand="" jvmConfigurationId="" workingDirectory="" isStartupWorkingDirectory="true" openBrowser="false" browserUrl="" vmArguments="" mainClass="" arguments="" consoleBufferSize="1000" nativeConsole="false" consoleSizeWidth="80" consoleSizeHeight="25" configSyncMode="1" configSyncCopyTarget="" configSyncSshTarget="" configSyncCommand="" showUnprofiledJvms="true" showProfiledJvms="true" showBusyJvms="true" appletURL="" jnlpURL="" nextScriptId="1" useSocks="false" socksHost="" socksPort="1080">
+      <filters />
+      <exceptionalMethods />
+      <ignoredMethods />
+      <splitMethods />
+      <complexityMethods />
+      <triggers logTarget="stdout" logFile="" />
+      <probes />
+      <customProbes />
+      <customTelemetries />
+      <viewSettings>
+        <invocationView showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <hotspotsView showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <callTracer percentageThreshold="100000" recordFiltered="false" timeDisplay="relativeToFirstTrace" showSignature="true" showClassNamesForMethods="false" />
+        <methodDistribution timeGridlines="3" scaleToFit="true" verticalGridlines="3" logarithmicValues="true" />
+        <threadsHistoryView timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" monitorToolTips="true" showGroupNames="true" />
+        <monitorHistory blockingThreshold="1000" waitingThreshold="100000" />
+        <monitorHistoryTelemetry timeGridlines="3" bookmarks="3" scaleToFit="false" />
+        <threadsMonitorView showRunnable="true" showWaitingOnCondition="true" showWaitingOnMonitor="true" showNetIo="true" showDead="false" />
+        <methodGraph colorInformation="1" colorScaleBase="1" showSignature="false" useOutgoingThreshold="true" outgoingThreshold="1.0" showAverageTimes="false" shortenPackages="true" />
+        <classMonitorView primaryMeasure="1" sizeScale="1" diffColumnOrder="2" differenceDisplayType="1" />
+        <allocationsMonitor cumulate="true" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <allocationHotspots diffColumnOrder="2" differenceDisplayType="1" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <heapWalkerView showViewHelperDialog="true" selectionStepsVisible="true" />
+        <heapWalkerClassesView primaryMeasure="1" sizeScale="1" />
+        <heapWalkerAllocationsView cumulate="true" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <heapWalkerBiggestObjectsView sizeScale="1" showObjectIds="true" showRetainedSizeBar="true" percentageBase="topLevel" />
+        <heapWalkerReferencesView sizeScale="1" showObjectIds="true" showObjectIdsInGraph="false" shortenPackagesInGraph="true" showDeclaringClassesInTree="true" showNullOutgoingReferences="false" instanceLimitGraph="100" instanceLimitTree="100" compactContainers="true" />
+        <heapWalkerChronoView timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" />
+        <classTracker timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" objectScopeSelection="all" livenessTypeSelection="Live objects">
+          <selections />
+        </classTracker>
+        <probeTracker timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+        <probeTelemetries timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+        <probeTimeLine timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" />
+        <probeHotspots showTime="true" showInherentTime="false" showInvocationCount="true" showAverage="false" isUsePercentageThreshold="false" percentageThreshold="0.01" showPercentageBar="true" alwaysShowFQN="true" alwaysShowSignature="false" percentageBase="2" scale="1" />
+        <overviewTelemetry timeGridlines="3" bookmarks="3" scaleToFit="false" background="2" />
+        <vmTelemetries timeGridlines="3" bookmarks="3" scaleToFit="false" verticalGridlines="3" graphType="1" />
+      </viewSettings>
+      <viewFilters />
+      <compiledScripts />
+      <ssh tunnelMode="direct" hostName="127.0.0.1" port="8849" verifyHosts="false" knownHosts="" sshMode="attach" />
+      <classPath />
+      <sourcePath />
+      <libraryPath />
+    </remoteAttachMemento>
+  </mementos>
+  <nextId id="101" />
+</config>

@@ -1,0 +1,18 @@
+2019-07-31 00:23:43 [main] INFO  net.runelite.client.rs.ClientLoader - client-patch 259011122.206
+2019-07-31 00:23:43 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-07-31 00:23:44 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-07-31 00:23:47 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@5ff16e36,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-07-31 00:23:47 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-07-31 00:23:49 [main] INFO  net.runelite.client.RuneLite - Client initialization took 9396ms. Uptime: 9835ms
+2019-07-31 15:00:10 [main] INFO  net.runelite.client.rs.ClientLoader - client-patch 259011122.206
+2019-07-31 15:00:10 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-07-31 15:00:10 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-07-31 15:00:13 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@47c0de35,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-07-31 15:00:13 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-07-31 15:00:15 [main] INFO  net.runelite.client.RuneLite - Client initialization took 10453ms. Uptime: 10980ms
+2019-07-31 22:54:14 [main] INFO  net.runelite.client.rs.ClientLoader - client-patch 259011122.206
+2019-07-31 22:54:14 [main] INFO  n.r.client.account.SessionManager - No session file exists
+2019-07-31 22:54:15 [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2019-07-31 22:54:18 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,316,194,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@6c916d2f,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2019-07-31 22:54:18 [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2019-07-31 22:54:20 [main] INFO  net.runelite.client.RuneLite - Client initialization took 10072ms. Uptime: 10634ms

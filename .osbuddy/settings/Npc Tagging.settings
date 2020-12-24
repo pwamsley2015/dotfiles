@@ -1,0 +1,1 @@
+{"Color of the NPC Marker":{"type":"color","value":-1},"Color of the Spawn Timers":{"type":"color","value":16777215},"Marker Type":{"type":"combo-box","value":"Hull"},"Show spawn timers":{"type":"toggle","value":false},"Show the spawn tile":{"type":"toggle","value":true},"enabled":{"type":"hidden","value":"false"}}

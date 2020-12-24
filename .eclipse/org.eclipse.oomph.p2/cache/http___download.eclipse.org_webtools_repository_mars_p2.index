@@ -1,0 +1,4 @@
+version=1
+generated=true
+metadata.repository.factory.order=compositeContent.xml,content.xml,profile,eclipse,content.xml.xz,site.xml,\!
+artifact.repository.factory.order=compositeArtifacts.xml,artifacts.xml,artifacts.xml.xz,eclipse,site.xml,\!
